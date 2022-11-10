@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		JsonParser input = new JsonParser();
 		RandomStudent randomStudentGenerator = new RandomStudent(input.getFirstNames(),input.getLastNames(),input.getAdvisors(),input.getCourses());
-		Student std = randomStudentGenerator.createRandomStudent(2);
+		Student std = randomStudentGenerator.createRandomStudent(2,37);
 		OutputJSON output = new OutputJSON();
 		output.saveRandomStudent(std);
 	}
