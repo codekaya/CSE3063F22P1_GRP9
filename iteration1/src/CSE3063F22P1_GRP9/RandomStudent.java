@@ -1,11 +1,6 @@
-package CSE3063F22P1_GRP9;
+package oopProje;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONValue;
 
 public class RandomStudent {
 	private ArrayList<String> names;
@@ -19,9 +14,9 @@ public class RandomStudent {
 		this.courses = courses;
 	}
 	
-	public Student createRandomStudent(int semester) {
+	public Student createRandomStudent(int semester,int order) {
 		Student student = new Student();
-		student.setID(getRandomId());
+		student.setID(getRandomId(semester, order));
 		student.setFirstName(getRandomFirstName());
 		student.setLastName(getRandomLastName());
 		student.setSemester(semester);
@@ -30,8 +25,10 @@ public class RandomStudent {
 		return student;
 	}
 	
-	private String getRandomId() {
-		return "150119037";
+	private String getRandomId(int semester, int order) {
+		int Id = 150118000+order;
+		Id += 4000 - (Math.floor((semester+1)/2)*1000);
+		return Id+"";
 	}
 	
 	private String getRandomFirstName() {
@@ -57,7 +54,7 @@ public class RandomStudent {
 			for(int j = 0;j<takenCourses.size();j++) {
 				TakenCourse takenCourse = takenCourses.get(j);
 				String s = takenCourse.getCourse().getSemester();
-				if(takenCourse.getTakenCourseStatus()=="failed" && (s.equals(currentSemester) ||s.equals("Both"))) {
+				if(takenCourse.getTakenCourseStatus()=="Failed" && (s.equals(currentSemester) ||s.equals("Both"))) {
 					student.addRequestedCourse((takenCourse.getCourse()));
 				}
 			}
@@ -71,11 +68,10 @@ public class RandomStudent {
 			if(i-1 == semester) {
 				break;
 			}
-			ArrayList<Course> registeredCourses = registerRequestedCourses(student.getRequestedCourses(),selectionProblems);
-			//Register fail olursa transkripte register problem diye ekleyelim ve requested course başta bunlarıda ekleyelim
+			ArrayList<Course> registeredCourses = registerRequestedCourses(student.getRequestedCourses(),transcript);
 			ArrayList<TakenCourse> simulatedGrades = simulateGrades(registeredCourses);
 			for(int k = 0;k<simulatedGrades.size();k++) {
-				transcript.addTakenCourse(simulatedGrades.get(k));//Transkriptte aynı dersten varsa sadece status ve grade güncellenmeli.
+				transcript.addTakenCourse(simulatedGrades.get(k));
 			}
 			String temp = currentSemester;
 			currentSemester=nextSemester;
@@ -88,15 +84,47 @@ public class RandomStudent {
 	private ArrayList<TakenCourse> simulateGrades(ArrayList<Course> registeredCourses) {
 		ArrayList<TakenCourse> takenCourses = new ArrayList<TakenCourse>();
 		for(int i = 0;i<registeredCourses.size();i++) {
-			TakenCourse takenCourse = new TakenCourse(registeredCourses.get(i),(float) 3.5,"Passed");
+			double p = Math.random();
+			float grade = 0;
+			if(p>=0 &&p<0.10)
+				grade=1;
+			else if(p>=0.10 &&p<0.20)
+				grade=(float)1.5;
+			else if(p>=0.20 && p<0.36)
+				grade=2;
+			else if(p>=0.36 && p<0.52)
+				grade=(float) 2.5;
+			else if(p>=0.52 && p<0.68)
+				grade=3;
+			else if(p>=0.68 && p<0.84)
+				grade=(float) 3.5;
+			else if(p>=0.84 && p<=1)
+				grade=4;
+			String status = grade<2?"Failed":"Passed";
+			TakenCourse takenCourse = new TakenCourse(registeredCourses.get(i),grade,status);
 			takenCourses.add(takenCourse);
 		}
-		
 		return takenCourses;
 	}
 	
-	private ArrayList<Course> registerRequestedCourses(ArrayList<Course> requestedCourses, ArrayList<SelectionProblem> selectionProblems) {
-		return requestedCourses;
+	private ArrayList<Course> registerRequestedCourses(ArrayList<Course> requestedCourses, Transcript transcript) {
+		ArrayList<Course> registeredCourses = new ArrayList<Course>();
+		for (Course course : requestedCourses) {
+			if(course.getPrerequisite()==null) {
+				registeredCourses.add(course);
+				continue;
+			}
+			TakenCourse prerequisiteInTranscript = transcript.findCourse(course.getPrerequisite());
+			if(prerequisiteInTranscript==null || !prerequisiteInTranscript.getTakenCourseStatus().equals("Passed")) {
+				SelectionProblem sp = new SelectionProblem();
+				sp.setNotRegisteredCourse(course);
+				transcript.addSelectionProblem(sp);
+			}
+			else {
+				registeredCourses.add(course);
+			}		
+		}
+		return registeredCourses;
 	}
 	
 	private void appendCoursesAtSemester(int semester, ArrayList<Course> requestedCourses) {
