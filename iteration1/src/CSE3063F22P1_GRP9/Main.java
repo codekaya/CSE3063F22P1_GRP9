@@ -1,6 +1,5 @@
 package CSE3063F22P1_GRP9;
 
-
 import java.util.ArrayList;
 
 public class Main {
@@ -21,22 +20,16 @@ public class Main {
 				order++;
 			}
 		}
-		
+		System.out.println("100 Random student created");
 		CourseRegistirationSystem registirationSystem = new CourseRegistirationSystem(semester);
 		for (Student student : students) {
 			registirationSystem.registerStudent(student);
 		}
-		
-	
+		System.out.println("Students registiration completed");
 		OutputJSON output = new OutputJSON();
-		output.saveStudent(students.get(3));
-		output.saveStudent(students.get(2));
-		output.saveStudent(students.get(1));
-		output.saveStudent(students.get(0));
-		/*output.saveStudent(students.get(3));
-		output.saveStudent(students.get(1));
 		for (Student student : students) {
 			output.saveStudent(student);
-		}*/
+		}
+		System.out.println("Students saved to the json files");
 	}
 }

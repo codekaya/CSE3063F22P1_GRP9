@@ -5,6 +5,16 @@ public class SelectionProblem {
 	private Course notRegisteredCourse;
 	private String description;
 	
+	SelectionProblem(){
+		
+	}
+	
+	SelectionProblem(int Id,Course notRegisteredCourse,String description){
+		this.Id = Id;
+		this.notRegisteredCourse = notRegisteredCourse;
+		this.description = description;
+	}
+	
 	public int getId() {
 		return Id;
 	}
@@ -22,5 +32,6 @@ public class SelectionProblem {
 	}
 	public void setDescription(String description) {
 		this.description = description;
-	}	
+	}
+	
 }
