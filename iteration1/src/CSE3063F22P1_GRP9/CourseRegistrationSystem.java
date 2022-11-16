@@ -3,10 +3,10 @@ package CSE3063F22P1_GRP9;
 
 import java.util.ArrayList;
 
-public class CourseRegistirationSystem {
+public class CourseRegistrationSystem {
 	private String semester;
 	private final int MAX_COURSE_COUNT;  
-	CourseRegistirationSystem(String semester){
+	CourseRegistrationSystem(String semester){
 		this.semester = semester;
 		MAX_COURSE_COUNT = 10;
 	}

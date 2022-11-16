@@ -21,7 +21,7 @@ public class Main {
 			}
 		}
 		System.out.println("100 Random student created");
-		CourseRegistirationSystem registirationSystem = new CourseRegistirationSystem(semester);
+		CourseRegistrationSystem registirationSystem = new CourseRegistrationSystem(semester);
 		for (Student student : students) {
 			registirationSystem.registerStudent(student);
 		}
