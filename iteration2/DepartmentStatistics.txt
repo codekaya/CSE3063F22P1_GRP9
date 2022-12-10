@@ -1,0 +1,130 @@
+ATA121 Atatürk İlkeleri ve İnkılap Tarihi I Statistics;
+	Number of registered students:110
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+MBG1201 Introduction to Modern Biology Statistics;
+	Number of registered students:109
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE1200 Introduction to Computer Engineering Statistics;
+	Number of registered students:107
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE1241 Computer Programming I Statistics;
+	Number of registered students:115
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+MATH1001 Calculus I Statistics;
+	Number of registered students:110
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+PHYS1101 Physics I Statistics;
+	Number of registered students:116
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+PHYS1103 Physics Lab I Statistics;
+	Number of registered students:111
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+TRD121 Türk Dili I Statistics;
+	Number of registered students:110
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE2023 Discrete Computational Structures Statistics;
+	Number of registered students:112
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE2225 Data Structures Statistics;
+	Number of registered students:126
+	Number of registration failures:29
+	Number of quota problems:0
+	Number of prerequisite problems:29
+ECON2004 Engineering Economy Statistics;
+	Number of registered students:111
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+EE2031 Electric Circuits Statistics;
+	Number of registered students:117
+	Number of registration failures:15
+	Number of quota problems:0
+	Number of prerequisite problems:15
+MATH2055 Differential Equations Statistics;
+	Number of registered students:106
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+MATH2059 Numerical Methods Statistics;
+	Number of registered students:128
+	Number of registration failures:11
+	Number of quota problems:0
+	Number of prerequisite problems:11
+CSE3215 Digital Logic Design Statistics;
+	Number of registered students:114
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE3033 Operating Systems Statistics;
+	Number of registered students:109
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE3055 Database Systems Statistics;
+	Number of registered students:89
+	Number of registration failures:47
+	Number of quota problems:0
+	Number of prerequisite problems:47
+CSE3063 Object-Oriented Software Design Statistics;
+	Number of registered students:108
+	Number of registration failures:2
+	Number of quota problems:0
+	Number of prerequisite problems:2
+IE3081 Modeling and Discrete Simulation Statistics;
+	Number of registered students:109
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4074 Computer Networks Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4219 Principles of Embedded System Design Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4297 Engineering Project I Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+ISG121 İş Sağlığı ve Güvenliği I Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4288 Introduction to Machine Learning Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+UE University Elective Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+TExxx Technical Elective - 1 Statistics;
+	Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
