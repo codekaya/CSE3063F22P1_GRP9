@@ -3021,6 +3021,90 @@
     "lastName":"TOPÇUOĞLU",
     "email":"haluk@marmara.edu.tr",
     "office":"M2-217"
-  } 
+  },
+
+  { 
+    "id":"2",
+    "firstName":"Çiğdem Eroğlu",
+    "lastName":"ERDEM",
+    "email":"cigdem.erdem@marmara.edu.tr",
+    "office":"M2-208"
+  },
+
+  { 
+    "id":"3",
+    "firstName":"Ali Fuat",
+    "lastName":"ALKAYA",
+    "email":"falkaya@marmara.edu.tr",
+    "office":"M2-249"
+  },
+
+  { 
+    "id":"4",
+    "firstName":"Murat Can",
+    "lastName":"GANİZ",
+    "email":"murat.ganiz@marmara.edu.tr",
+    "office":"M2-251"
+  },
+
+  { 
+    "id":"5",
+    "firstName":"Mujdat",
+    "lastName":"SOYTÜRK",
+    "email":"mujdat.soyturk@marmara.edu.tr",
+    "office":":M2-204"
+  },
+
+  { 
+    "id":"6",
+    "firstName":"Mustafa",
+    "lastName":"AĞOĞLU",
+    "email":"agaoglu@marmara.edu.tr",
+    "office":"M2-221"
+  },
+  { 
+    "id":"7",
+    "firstName":"Mehmet",
+    "lastName":"BARAN",
+    "email":"mehmet.baran@marmara.edu.tr",
+    "office":"M2-233"
+  },
+  { 
+    "id":"8",
+    "firstName":"Betül Demiröz",
+    "lastName":"BOZ",
+    "email":"betul.demiroz@marmara.edu.tr",
+    "office":"M2-234"
+  },
+  { 
+    "id":"9",
+    "firstName":"Fatma Corut",
+    "lastName":"ERGİN",
+    "email":"fatma.ergin@marmara.edu.tr",
+    "office":"M2-229"
+  },
+  { 
+    "id":"10",
+    "firstName":"Ömer",
+    "lastName":"KORÇAK",
+    "email":"omer.korcak@marmara.edu.tr",
+    "office":"M2-232"
+  },
+  { 
+    "id":"11",
+    "firstName":"Ali Haydar",
+    "lastName":"ÖZER",
+    "email":"haydar.ozer@marmara.edu.tr",
+    "office":"M2-253"
+  },
+  { 
+    "id":"12",
+    "firstName":"Sanem",
+    "lastName":"Arslan",
+    "email":"sanem.arslan@marmara.edu.tr",
+    "office":"M2-230"
+  }
+  
+  
 ]
 }
