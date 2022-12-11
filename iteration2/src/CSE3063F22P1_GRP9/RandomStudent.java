@@ -43,7 +43,8 @@ public class RandomStudent {
 	}
 	
 	private Advisor getRandomAdvisor() {
-		return advisors.get(0);
+		int randomInt =  (int)(Math.random() * 12);
+		return advisors.get(randomInt);
 	}
 	
 	private Transcript getRandomTranscript(int semester,Student student) {
