@@ -1,7 +1,7 @@
 {
   "ID" : "150122256",
-  "FirstName" : "Kelly",
-  "LastName" : "Martin",
+  "FirstName" : "Julianne",
+  "LastName" : "Strickland",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,7 +11,7 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "0.00",
+    "GPA" : "NaN",
     "TakenCredit" : 31,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {

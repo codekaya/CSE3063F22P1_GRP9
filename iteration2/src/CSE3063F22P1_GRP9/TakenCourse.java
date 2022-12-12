@@ -15,10 +15,6 @@ public class TakenCourse {
 		return course;
 	}
 
-	public void setCourse(Course course) {
-		this.course = course;
-	}
-
 	public String getTakenCourseStatus() {
 		return takenCourseStatus;
 	}

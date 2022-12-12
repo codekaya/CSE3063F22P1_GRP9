@@ -1,7 +1,7 @@
 {
   "ID" : "150120334",
-  "FirstName" : "Alison",
-  "LastName" : "Fischer",
+  "FirstName" : "Ines",
+  "LastName" : "Frederick",
   "Semester" : 5,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,15 +11,15 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "2.49",
-    "TakenCredit" : 147,
-    "CompletedCredit" : 114,
+    "GPA" : "2.90",
+    "TakenCredit" : 112,
+    "CompletedCredit" : 91,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
@@ -31,19 +31,19 @@
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
@@ -67,19 +67,13 @@
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
-    }, {
-      "CourseId" : "CSE1242",
-      "CourseName" : "Computer Programming II",
-      "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
@@ -97,71 +91,53 @@
       "CourseName" : "Physics Lab II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
-    }, {
-      "CourseId" : "CSE2225",
-      "CourseName" : "Data Structures",
-      "Credit" : 7,
       "takenCourseStatus" : "Passed",
       "Grade" : 2.0
     }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "EE2031",
       "CourseName" : "Electric Circuits",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH2055",
       "CourseName" : "Differential Equations",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH2059",
       "CourseName" : "Numerical Methods",
       "Credit" : 4,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "CSE2246",
-      "CourseName" : "Analysis of Algorithms",
-      "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE2138",
       "CourseName" : "Systems Programming",
       "Credit" : 7,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
-    }, {
-      "CourseId" : "CSE2260",
-      "CourseName" : "Principles of Programming Languages",
-      "Credit" : 4,
       "takenCourseStatus" : "Passed",
       "Grade" : 2.0
     }, {
@@ -175,7 +151,7 @@
       "CourseName" : "Introduction to Probability and Statistics",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE3215",
       "CourseName" : "Digital Logic Design",
@@ -189,31 +165,43 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
-      "CourseId" : "CSE3055",
-      "CourseName" : "Database Systems",
-      "Credit" : 7,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "CSE3063",
-      "CourseName" : "Object-Oriented Software Design",
-      "Credit" : 5,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
       "CourseId" : "IE3081",
       "CourseName" : "Modeling and Discrete Simulation",
       "Credit" : 4,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ ]
+    "RegistirationProblems" : [ {
+      "ProblemId" : 0,
+      "Course" : "Computer Programming II",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Data Structures",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Analysis of Algorithms",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Principles of Programming Languages",
+      "Reason" : null
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Database Systems",
+      "Reason" : "Prerequisite Data Structures isn't passed"
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Object-Oriented Software Design",
+      "Reason" : "Prerequisite Computer Programming II isn't passed"
+    } ]
   },
   "RequestedCourses" : [ {
-    "name" : "Numerical Methods",
-    "prerequisiteId" : "MATH1001",
+    "name" : "Engineering Economy",
+    "prerequisiteId" : null,
     "credit" : 4,
-    "id" : "MATH2059"
+    "id" : "ECON2004"
   }, {
     "name" : "Digital Logic Design",
     "prerequisiteId" : null,

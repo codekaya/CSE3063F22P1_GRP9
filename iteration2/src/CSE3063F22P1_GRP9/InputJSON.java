@@ -103,12 +103,12 @@ public class InputJSON {
 		Iterator<JSONObject> iterator = advisorsJSON.iterator();
 		while (iterator.hasNext()) {
 			JSONObject advisorJSON = (JSONObject)iterator.next();
-			Advisor advisor = new Advisor();
-			advisor.setFirstName(advisorJSON.get("firstName").toString());
-			advisor.setLastName(advisorJSON.get("lastName").toString());
-			advisor.setID(advisorJSON.get("id").toString());
-			advisor.setEmail(advisorJSON.get("email").toString());
-			advisor.setOffice(advisorJSON.get("office").toString());
+			String FName = advisorJSON.get("firstName").toString();
+			String LName = advisorJSON.get("lastName").toString();
+			String Id = advisorJSON.get("id").toString();
+			String email = advisorJSON.get("email").toString();
+			String office = advisorJSON.get("office").toString();
+			Advisor advisor = new Advisor(Id,FName,LName,email,office);
             advisors.add(advisor);
         };
         return advisors;

@@ -4,27 +4,18 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class RandomStudent {
-	private ArrayList<String> names;
-	private ArrayList<String> lastNames;
-	private ArrayList<Advisor> advisors;
-    private ArrayList<ArrayList<Course>> courses;
-    private double probabilityOfPassingCourse; 
+	private InputJSON input;
 	RandomStudent(InputJSON input){
-		this.names = input.getFirstNames();
-		this.lastNames = input.getLastNames();
-		this.advisors = input.getAdvisors();
-		this.courses = input.getCourses();
-		this.probabilityOfPassingCourse = input.getProbabilityOfPassingCourse();
+		this.input = input;
 	}
 	
 	public Student createRandomStudent(int semester,int order) {
-		Student student = new Student();
-		student.setID(getRandomId(semester, order));
-		student.setFirstName(getRandomFirstName());
-		student.setLastName(getRandomLastName());
-		student.setSemester(semester);
-		student.setTranscript(getRandomTranscript(semester,student));
-		student.setAdvisor(getRandomAdvisor());
+		String Id = getRandomId(semester, order);
+		String FName = getRandomFirstName();
+		String LName = getRandomLastName();
+		Advisor advisor = getRandomAdvisor();
+		Student student = new Student(Id,FName,LName,semester,advisor);
+		createStudentTranscript(semester,student);
 		return student;
 	}
 	
@@ -35,44 +26,44 @@ public class RandomStudent {
 	}
 	
 	private String getRandomFirstName() {
-		return names.get((int)(Math.random()*399));
+		return input.getFirstNames().get((int)(Math.random()*399));
 	}
 	
 	private String getRandomLastName() {
-		return lastNames.get((int)(Math.random()*399));
+		return input.getLastNames().get((int)(Math.random()*399));
 	}
 	
 	private Advisor getRandomAdvisor() {
-		int randomInt =  (int)(Math.random() * 12);
-		return advisors.get(randomInt);
+		return input.getAdvisors().get(0);
 	}
 	
-	private Transcript getRandomTranscript(int semester,Student student) {
-		Transcript transcript = new Transcript();
+	private void createStudentTranscript(int semester,Student student) {
+		Transcript transcript = new Transcript(student);
 		String currentSemester = "Fall";
 		String nextSemester = "Spring";
+		ArrayList<SelectionProblem> selectionProblems = new ArrayList<SelectionProblem>();
+		ArrayList<Course> requestedCourses = new ArrayList<Course>();
 		for(int i = 1;i<=semester+1;i++) {
-			student.setRequestedCourses(new ArrayList<Course>());
+			requestedCourses.clear();
 			ArrayList<TakenCourse> takenCourses = transcript.getTakenCourses();
-			ArrayList<SelectionProblem> selectionProblems = transcript.getSelectionProblems();
 			for(int j = 0;j<takenCourses.size();j++) {
 				TakenCourse takenCourse = takenCourses.get(j);
 				String s = takenCourse.getCourse().getSemester();
 				if(takenCourse.getTakenCourseStatus()=="Failed" && (s.equals(currentSemester) ||s.equals("Both"))) {
-					student.addRequestedCourse((takenCourse.getCourse()));
+					requestedCourses.add(takenCourse.getCourse());
 				}
 			}
 			for(int j = 0;j<selectionProblems.size();j++) {
 				Course notRegisteredCourse = selectionProblems.get(j).getNotRegisteredCourse();
 				if(notRegisteredCourse.getSemester().equals(currentSemester)) {
-					student.addRequestedCourse(notRegisteredCourse);
+					requestedCourses.add(notRegisteredCourse);
 				}
 			}	
-			appendCoursesAtSemester(i,student.getRequestedCourses());
+			appendCoursesAtSemester(i,requestedCourses);
 			if(i-1 == semester) {
 				break;
 			}
-			ArrayList<Course> registeredCourses = registerRequestedCourses(student.getRequestedCourses(),transcript);
+			ArrayList<Course> registeredCourses = registerRequestedCourses(requestedCourses,transcript);
 			ArrayList<TakenCourse> simulatedGrades = simulateGrades(registeredCourses);
 			for(int k = 0;k<simulatedGrades.size();k++) {
 				transcript.addTakenCourse(simulatedGrades.get(k));
@@ -81,17 +72,20 @@ public class RandomStudent {
 			currentSemester=nextSemester;
 			nextSemester=temp;
 		}
-		transcript.setSelectionProblems(new ArrayList<SelectionProblem>());
-		return transcript;
+		student.setTranscript(transcript);
+		for (Course course : requestedCourses) {
+			student.addRequestedCourse(course);
+		}
 	}
 
 	private ArrayList<TakenCourse> simulateGrades(ArrayList<Course> registeredCourses) {
+		double probabilityOfPassingCourse = input.getProbabilityOfPassingCourse();
 		ArrayList<TakenCourse> takenCourses = new ArrayList<TakenCourse>();
 		for(int i = 0;i<registeredCourses.size();i++) {
 			String status = "Passed";
 			float grade = 1;
 			Random p = new Random();
-			if(p.nextDouble()>this.probabilityOfPassingCourse)
+			if(p.nextDouble()>probabilityOfPassingCourse)
 				status = "Failed";
 			else
 				grade = p.nextInt(3)+2;
@@ -110,8 +104,7 @@ public class RandomStudent {
 			}
 			TakenCourse prerequisiteInTranscript = transcript.findCourse(course.getPrerequisite());
 			if(prerequisiteInTranscript==null || !prerequisiteInTranscript.getTakenCourseStatus().equals("Passed")) {
-				SelectionProblem sp = new SelectionProblem();
-				sp.setNotRegisteredCourse(course);
+				SelectionProblem sp = new SelectionProblem(course);
 				transcript.addSelectionProblem(sp);
 			}
 			else {
@@ -122,7 +115,7 @@ public class RandomStudent {
 	}
 	
 	private void appendCoursesAtSemester(int semester, ArrayList<Course> requestedCourses) {
-		ArrayList<Course> semesterCourses = courses.get(semester-1);
+		ArrayList<Course> semesterCourses = input.getCourses().get(semester-1);
 		for(int i = 0;i<semesterCourses.size();i++) {
 			requestedCourses.add(semesterCourses.get(i));
 		}

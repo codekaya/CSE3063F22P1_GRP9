@@ -1,7 +1,7 @@
 {
   "ID" : "150121165",
-  "FirstName" : "Lancaster",
-  "LastName" : "Stewart",
+  "FirstName" : "Shauna",
+  "LastName" : "Sexton",
   "Semester" : 3,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,21 +11,21 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "1.96",
-    "TakenCredit" : 87,
-    "CompletedCredit" : 53,
+    "GPA" : "2.30",
+    "TakenCredit" : 86,
+    "CompletedCredit" : 55,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
@@ -42,8 +42,8 @@
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
       "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
@@ -55,7 +55,7 @@
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
@@ -73,7 +73,7 @@
       "CourseName" : "Computer Programming II",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
@@ -90,26 +90,26 @@
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "PHYS1104",
       "CourseName" : "Physics Lab II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
@@ -129,35 +129,25 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
-      "CourseId" : "EE2031",
-      "CourseName" : "Electric Circuits",
-      "Credit" : 5,
+      "CourseId" : "MATH2055",
+      "CourseName" : "Differential Equations",
+      "Credit" : 4,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
-      "CourseId" : "MATH2055",
-      "CourseName" : "Differential Equations",
+      "CourseId" : "MATH2059",
+      "CourseName" : "Numerical Methods",
       "Credit" : 4,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     } ],
     "RegistirationProblems" : [ {
       "ProblemId" : 1,
-      "Course" : "Numerical Methods",
-      "Reason" : "Prerequisite Calculus I isn't passed"
+      "Course" : "Electric Circuits",
+      "Reason" : "Prerequisite Physics II isn't passed"
     } ]
   },
   "RequestedCourses" : [ {
-    "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",
-    "prerequisiteId" : null,
-    "credit" : 2,
-    "id" : "ATA121"
-  }, {
-    "name" : "Calculus I",
-    "prerequisiteId" : null,
-    "credit" : 6,
-    "id" : "MATH1001"
-  }, {
     "name" : "Discrete Computational Structures",
     "prerequisiteId" : null,
     "credit" : 6,

@@ -1,7 +1,7 @@
 {
   "ID" : "150119039",
-  "FirstName" : "Sanford",
-  "LastName" : "Guy",
+  "FirstName" : "Brewer",
+  "LastName" : "Ayala",
   "Semester" : 7,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,21 +11,21 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "2.32",
-    "TakenCredit" : 191,
-    "CompletedCredit" : 148,
+    "GPA" : "3.07",
+    "TakenCredit" : 208,
+    "CompletedCredit" : 172,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
@@ -61,7 +61,7 @@
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
@@ -69,17 +69,23 @@
       "takenCourseStatus" : "Passed",
       "Grade" : 2.0
     }, {
+      "CourseId" : "CSE1242",
+      "CourseName" : "Computer Programming II",
+      "Credit" : 6,
+      "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
+    }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
@@ -109,19 +115,25 @@
       "CourseName" : "Discrete Computational Structures",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
+    }, {
+      "CourseId" : "CSE2225",
+      "CourseName" : "Data Structures",
+      "Credit" : 7,
+      "takenCourseStatus" : "Passed",
       "Grade" : 4.0
     }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "EE2031",
       "CourseName" : "Electric Circuits",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH2055",
       "CourseName" : "Differential Equations",
@@ -133,11 +145,23 @@
       "CourseName" : "Numerical Methods",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
+    }, {
+      "CourseId" : "CSE2246",
+      "CourseName" : "Analysis of Algorithms",
+      "Credit" : 6,
+      "takenCourseStatus" : "Passed",
       "Grade" : 4.0
     }, {
       "CourseId" : "CSE2138",
       "CourseName" : "Systems Programming",
       "Credit" : 7,
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
+    }, {
+      "CourseId" : "CSE2260",
+      "CourseName" : "Principles of Programming Languages",
+      "Credit" : 4,
       "takenCourseStatus" : "Passed",
       "Grade" : 4.0
     }, {
@@ -157,7 +181,7 @@
       "CourseName" : "Digital Logic Design",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE3033",
       "CourseName" : "Operating Systems",
@@ -165,15 +189,21 @@
       "takenCourseStatus" : "Passed",
       "Grade" : 2.0
     }, {
-      "CourseId" : "IE3081",
-      "CourseName" : "Modeling and Discrete Simulation",
-      "Credit" : 4,
+      "CourseId" : "CSE3055",
+      "CourseName" : "Database Systems",
+      "Credit" : 7,
       "takenCourseStatus" : "Passed",
       "Grade" : 4.0
     }, {
-      "CourseId" : "CSE1242",
-      "CourseName" : "Computer Programming II",
-      "Credit" : 6,
+      "CourseId" : "CSE3063",
+      "CourseName" : "Object-Oriented Software Design",
+      "Credit" : 5,
+      "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
+    }, {
+      "CourseId" : "IE3081",
+      "CourseName" : "Modeling and Discrete Simulation",
+      "Credit" : 4,
       "takenCourseStatus" : "Passed",
       "Grade" : 4.0
     }, {
@@ -187,13 +217,13 @@
       "CourseName" : "Software Engineering",
       "Credit" : 7,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE3048",
       "CourseName" : "Introduction to Signals and Systems",
       "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "CSE3264",
       "CourseName" : "Formal Languages and Automata Theory",
@@ -205,25 +235,13 @@
       "CourseName" : "Operations Research",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "COM2202",
       "CourseName" : "Technical Comm. and Entrepreneurship",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
-    }, {
-      "CourseId" : "CSE2225",
-      "CourseName" : "Data Structures",
-      "Credit" : 7,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "CSE3063",
-      "CourseName" : "Object-Oriented Software Design",
-      "Credit" : 5,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE4074",
       "CourseName" : "Computer Networks",
@@ -267,33 +285,9 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ {
-      "ProblemId" : 1,
-      "Course" : "Database Systems",
-      "Reason" : "Prerequisite Data Structures isn't passed"
-    } ]
+    "RegistirationProblems" : [ ]
   },
   "RequestedCourses" : [ {
-    "name" : "Data Structures",
-    "prerequisiteId" : "CSE1242",
-    "credit" : 7,
-    "id" : "CSE2225"
-  }, {
-    "name" : "Data Structures",
-    "prerequisiteId" : "CSE1242",
-    "credit" : 7,
-    "id" : "CSE2225"
-  }, {
-    "name" : "Database Systems",
-    "prerequisiteId" : "CSE2225",
-    "credit" : 7,
-    "id" : "CSE3055"
-  }, {
-    "name" : "Object-Oriented Software Design",
-    "prerequisiteId" : "CSE1242",
-    "credit" : 5,
-    "id" : "CSE3063"
-  }, {
     "name" : "Computer Networks",
     "prerequisiteId" : null,
     "credit" : 5,

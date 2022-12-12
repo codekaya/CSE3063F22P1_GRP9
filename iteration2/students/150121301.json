@@ -1,7 +1,7 @@
 {
   "ID" : "150121301",
-  "FirstName" : "Richardson",
-  "LastName" : "Pitts",
+  "FirstName" : "Corine",
+  "LastName" : "Casey",
   "Semester" : 3,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,27 +11,27 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "2.15",
+    "GPA" : "2.88",
     "TakenCredit" : 91,
-    "CompletedCredit" : 50,
+    "CompletedCredit" : 59,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
@@ -49,37 +49,37 @@
       "CourseName" : "Physics I",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE1242",
       "CourseName" : "Computer Programming II",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
       "Credit" : 6,
-      "takenCourseStatus" : "Failed",
-      "Grade" : 1.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
@@ -97,19 +97,19 @@
       "CourseName" : "Physics Lab II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
@@ -150,10 +150,10 @@
     "RegistirationProblems" : [ ]
   },
   "RequestedCourses" : [ {
-    "name" : "Introduction to Modern Biology",
+    "name" : "Türk Dili I",
     "prerequisiteId" : null,
-    "credit" : 5,
-    "id" : "MBG1201"
+    "credit" : 2,
+    "id" : "TRD121"
   }, {
     "name" : "Discrete Computational Structures",
     "prerequisiteId" : null,

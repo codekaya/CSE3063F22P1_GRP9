@@ -3,23 +3,17 @@ package CSE3063F22P1_GRP9;
 import java.util.ArrayList;
 
 public class Transcript {
+	private Student student;
 	private float GPA;
 	private int completedCredit;
 	private int takenCredit;
 	private ArrayList<TakenCourse> takenCourses;
 	private ArrayList<SelectionProblem> selectionProblems; 
 	
-	public Transcript(){
+	public Transcript(Student student){
+		this.student = student;
 		takenCourses = new ArrayList<TakenCourse>();
 		selectionProblems = new ArrayList<SelectionProblem>();
-	}
-	
-	public float getGPA() {
-		return GPA;
-	}
-
-	public ArrayList<TakenCourse> getTakenCourses() {
-		return takenCourses;
 	}
 
 	public void addTakenCourse(TakenCourse takenCourse) {
@@ -44,13 +38,27 @@ public class Transcript {
 	}
 	
 	private void calculateGpa() {
+		 int totalCredit = 0;
 		 for(int i=0; i<takenCourses.size(); i++){
-			if(!takenCourses.get(i).getTakenCourseStatus().equals("Current")) {
-				GPA += takenCourses.get(i).getGrade();
+			 TakenCourse takenCourse = takenCourses.get(i);
+			if(!takenCourse.getTakenCourseStatus().equals("Current")) {
+				int credit = takenCourse.getCourse().getCredit();
+				GPA += takenCourse.getGrade()*credit;
+				totalCredit += credit; 
 			}
 		 }
-		 GPA = GPA/takenCourses.size();
+		 GPA = GPA/totalCredit;
 	}
+	
+	public TakenCourse findCourse(Course course){
+		for(int i = 0;i<takenCourses.size();i++){
+			if(takenCourses.get(i).getCourse().getName().equals(course.getName())) {
+				return takenCourses.get(i);
+			}
+		}
+		return null;
+	}
+	
 	public int getCompletedCredit() {
 		return completedCredit;
 	}
@@ -63,20 +71,16 @@ public class Transcript {
 		return selectionProblems;
 	}
 
-	public void addSelectionProblem(SelectionProblem selectionProblems) {
-		this.selectionProblems.add(selectionProblems);
+	public void addSelectionProblem(SelectionProblem selectionProblem) {
+		this.selectionProblems.add(selectionProblem);
 	}
 	
-	public void setSelectionProblems(ArrayList<SelectionProblem> selectionProblems) {
-		this.selectionProblems = selectionProblems;
+	public float getGPA() {
+		return GPA;
+	}
+
+	public ArrayList<TakenCourse> getTakenCourses() {
+		return takenCourses;
 	}
 	
-	public TakenCourse findCourse(Course course){
-		for(int i = 0;i<takenCourses.size();i++){
-			if(takenCourses.get(i).getCourse().getName().equals(course.getName())) {
-				return takenCourses.get(i);
-			}
-		}
-		return null;
-	}
 }
