@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class RandomStudent {
 	private InputJSON input;
-	RandomStudent(InputJSON input){
+	public RandomStudent(InputJSON input){
 		this.input = input;
 	}
 	
