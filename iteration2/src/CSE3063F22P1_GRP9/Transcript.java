@@ -38,6 +38,7 @@ public class Transcript {
 	}
 	
 	private void calculateGpa() {
+		 GPA = 0;
 		 int totalCredit = 0;
 		 for(int i=0; i<takenCourses.size(); i++){
 			 TakenCourse takenCourse = takenCourses.get(i);
