@@ -38,4 +38,8 @@ public class CourseStatistics {
 		return prerequisiteProblemCount;
 	}
 	
+    public double getRateOfSucessfullRegistraion() {
+	   return (1.0 * registeredStudentCount)/ (registrationFailureCount + registeredStudentCount);
+}
+	
 }
