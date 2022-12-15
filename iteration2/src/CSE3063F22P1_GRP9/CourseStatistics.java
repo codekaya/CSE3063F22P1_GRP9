@@ -38,7 +38,7 @@ public class CourseStatistics {
 		return prerequisiteProblemCount;
 	}
 	
-    public double getRateOfSucessfullRegistraion() {
+    public double getRateOfSuccessfulRegistration() {
 	   return (1.0 * registeredStudentCount)/ (registrationFailureCount + registeredStudentCount);
 }
 	

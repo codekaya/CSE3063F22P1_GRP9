@@ -50,6 +50,20 @@ public class CourseRegistrationSystem {
 				transcript.addSelectionProblem(problem);
 				continue;
 			}
+			if(course.getID().equals("CSE4297") && student.getTranscript().getCompletedCredit()<165) {
+				course.getCourseStatistics().incrRegistrationFailureCount();
+				String description = "Student should have completed more than 165 credit to enroll CSE4297";
+				SelectionProblem problem = new SelectionProblem(4,course,description);
+				transcript.addSelectionProblem(problem);
+				continue;
+			}
+			if(course.getID().equals("TExxx") && student.getTranscript().getCompletedCredit()<155) {
+				course.getCourseStatistics().incrRegistrationFailureCount();
+				String description = "Student should have completed more than 155 credit to enroll Technical Elective Courses";
+				SelectionProblem problem = new SelectionProblem(4,course,description);
+				transcript.addSelectionProblem(problem);
+				continue;
+			}
 			course.getCourseStatistics().incrRegisteredStudentCount();
 			TakenCourse takenCourse = new TakenCourse(course,0,"Current");
 			transcript.addTakenCourse(takenCourse);
