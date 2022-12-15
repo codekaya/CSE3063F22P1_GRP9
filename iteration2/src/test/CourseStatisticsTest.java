@@ -37,7 +37,7 @@ class CourseStatisticsTest {
 	    
 	    
 	    
-		assertEquals(rateOfSucessfullRegistraion,csTesting.getRateOfSucessfullRegistraion());
+		assertEquals(rateOfSucessfullRegistraion,csTesting.getRateOfSuccessfulRegistration());
 		
 	}
 }
