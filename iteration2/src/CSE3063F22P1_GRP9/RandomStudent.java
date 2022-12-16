@@ -3,7 +3,10 @@ package CSE3063F22P1_GRP9;
 import java.util.ArrayList;
 import java.util.Random;
 
+import org.apache.log4j.Logger;
+
 public class RandomStudent {
+	final Logger logger = Logger.getLogger(Transcript.class);
 	private InputJSON input;
 	public RandomStudent(InputJSON input){
 		this.input = input;
@@ -76,6 +79,7 @@ public class RandomStudent {
 		for (Course course : requestedCourses) {
 			student.addRequestedCourse(course);
 		}
+		logger.info("Transcript is created for student id: "+student.getID());
 	}
 
 	private ArrayList<TakenCourse> simulateGrades(ArrayList<Course> registeredCourses) {
@@ -106,6 +110,8 @@ public class RandomStudent {
 			if(prerequisiteInTranscript==null || !prerequisiteInTranscript.getTakenCourseStatus().equals("Passed")) {
 				SelectionProblem sp = new SelectionProblem(course);
 				transcript.addSelectionProblem(sp);
+				logger.info("Could not register to "+course.getID()+" because of a prerequsite problem.");
+				logger.info("If you want to get "+course.getID()+" course, you must first pass "+course.getPrerequisiteId());
 			}
 			else {
 				registeredCourses.add(course);
