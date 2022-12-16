@@ -38,5 +38,9 @@ public class Student extends Person{
 	public void setTranscript(Transcript transcript) {
 		this.transcript = transcript;
 	}
-	
+
+	@Override
+	public void status() {
+		System.out.println("Student in university with id " + super.getID() + " and semester " + this.semester);
+	}
 }
