@@ -25,6 +25,7 @@ public class InputJSON {
 			logger.error("parameters.json file isn't found.");
 			System.exit(1);
 		}catch(Exception e) {
+			logger.error("parameters.json file found, there is another issue:");
 			e.printStackTrace();
 			System.exit(2);
 		}
@@ -41,9 +42,8 @@ public class InputJSON {
                 Course c = getCourseObject(iterator.next());
                 semesterCourses.add(c);
             }
-			courses.add(semesterCourses);
+			courses.add(semesterCourses);	
 		}
-		
 		for(int i = 0;i<courses.size();i++) {
 			for(int j = 0;j<courses.get(i).size();j++) {
 				Course currCourse = courses.get(i).get(j);
@@ -52,8 +52,8 @@ public class InputJSON {
 				}
 			}
 		}
+		logger.info("Courses read from inputJSON.");
 	}
-	
 	private Course getCourseObject(JSONObject courseJSON){
 		Course course = new Course();
 		course.setID(courseJSON.get("Course Code").toString());
@@ -71,6 +71,7 @@ public class InputJSON {
 		for(int i = 0;i<courses.size();i++) {
 			for(int j = 0;j<courses.get(i).size();j++) {;
 				if(courses.get(i).get(j).getID().equals(courseId))
+					logger.info("course found");
 					return courses.get(i).get(j);
 			}
 		}

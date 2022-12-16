@@ -3,7 +3,10 @@ package CSE3063F22P1_GRP9;
 
 import java.util.ArrayList;
 
+import org.apache.log4j.Logger;
+
 public class CourseRegistrationSystem {
+	final Logger logger = Logger.getLogger(CourseRegistrationSystem.class);
 	private String semester;
 	private final int MAX_COURSE_COUNT;  
 	CourseRegistrationSystem(String semester){
@@ -70,7 +73,7 @@ public class CourseRegistrationSystem {
 			course.setQuota(course.getQuota()-1);
 			coursesTaken++;
 		}
-		
+		logger.info("Course registration completed for student : " + student.getID());
 	}
 	
 }
