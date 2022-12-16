@@ -1,5 +1,7 @@
 package CSE3063F22P1_GRP9;
 
+//this class used for course status (pass & fail & current) and grade informations.
+
 public class TakenCourse {
 	private Course course;
 	private String takenCourseStatus;
