@@ -32,6 +32,7 @@ public class OutputJSON {
 			FileWriter file = new FileWriter("students/%s.json".formatted(student.getID()));
 			file.write(jsonString);
 			file.close();
+			logger.info("Student json file be created, file name is:" +student.getID()+".json");
 		}catch(IOException e) {
 			logger.error("Student json file couldn't be created");
 			System.exit(3);
@@ -90,7 +91,8 @@ public class OutputJSON {
 				s += "	Number of quota problems:"+courseStatistics.getQuotaProblemCount()+"\n";
 				s += "	Number of prerequisite problems:"+courseStatistics.getPrerequisiteProblemCount()+"\n";
 			
-				System.out.print(s);
+				//System.out.print(s);
+				logger.info(s);
 				allCourseStatistics += s;
 			}
 		}
@@ -98,6 +100,7 @@ public class OutputJSON {
 			FileWriter file = new FileWriter("DepartmentStatistics.txt");
 			file.write(allCourseStatistics);
 			file.close();
+			logger.info("Department Statistics file is created.- DepartmentStatistics.txt");
 		} catch (IOException e) {
 			logger.error("Department Statistics couldn't be saved");
 			System.exit(1);
