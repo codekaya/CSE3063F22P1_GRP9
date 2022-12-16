@@ -2,7 +2,10 @@ package CSE3063F22P1_GRP9;
 
 import java.util.ArrayList;
 
+import org.apache.log4j.Logger;
+
 public class Transcript {
+	final Logger logger = Logger.getLogger(Transcript.class);
 	private Student student;
 	private float GPA;
 	private int completedCredit;
@@ -35,6 +38,7 @@ public class Transcript {
 			takenCourseInTranscript.setTakenCourseStatus(takenCourse.getTakenCourseStatus());
 		}
 		calculateGpa();
+		//logger.info(takenCourse.getCourse().getName()+" taken course is added for student id:"+student.getID());
 	}
 	
 	private void calculateGpa() {
@@ -49,6 +53,7 @@ public class Transcript {
 			}
 		 }
 		 GPA = GPA/totalCredit;
+		 //logger.info("GPA is calculated for student id:"+student.getID());
 	}
 	
 	public TakenCourse findCourse(Course course){
