@@ -6,7 +6,7 @@ import java.util.Random;
 import org.apache.log4j.Logger;
 
 public class RandomStudent {
-	final Logger logger = Logger.getLogger(Transcript.class);
+	final Logger logger = Logger.getLogger(RandomStudent.class);
 	private InputJSON input;
 	public RandomStudent(InputJSON input){
 		this.input = input;
@@ -19,6 +19,7 @@ public class RandomStudent {
 		Advisor advisor = getRandomAdvisor();
 		Student student = new Student(Id,FName,LName,semester,advisor);
 		createStudentTranscript(semester,student);
+		logger.info("Student created with id "+student.getID());
 		return student;
 	}
 	
@@ -110,8 +111,6 @@ public class RandomStudent {
 			if(prerequisiteInTranscript==null || !prerequisiteInTranscript.getTakenCourseStatus().equals("Passed")) {
 				SelectionProblem sp = new SelectionProblem(course);
 				transcript.addSelectionProblem(sp);
-				logger.info("Could not register to "+course.getID()+" because of a prerequsite problem.");
-				logger.info("If you want to get "+course.getID()+" course, you must first pass "+course.getPrerequisiteId());
 			}
 			else {
 				registeredCourses.add(course);
