@@ -1,7 +1,7 @@
 {
   "ID" : "150120106",
-  "FirstName" : "Rose",
-  "LastName" : "Rivera",
+  "FirstName" : "Hobbs",
+  "LastName" : "Sykes",
   "Semester" : 5,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,75 +11,69 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "3.61",
-    "TakenCredit" : 143,
-    "CompletedCredit" : 98,
+    "GPA" : "2.76",
+    "TakenCredit" : 98,
+    "CompletedCredit" : 58,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
       "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
-    }, {
-      "CourseId" : "CSE1242",
-      "CourseName" : "Computer Programming II",
-      "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
@@ -102,14 +96,14 @@
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
@@ -117,23 +111,11 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
-      "CourseId" : "CSE2225",
-      "CourseName" : "Data Structures",
-      "Credit" : 7,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
-    }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
       "Credit" : 4,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
-    }, {
-      "CourseId" : "EE2031",
-      "CourseName" : "Electric Circuits",
-      "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
     }, {
       "CourseId" : "MATH2055",
       "CourseName" : "Differential Equations",
@@ -141,35 +123,17 @@
       "takenCourseStatus" : "Passed",
       "Grade" : 4.0
     }, {
-      "CourseId" : "CSE2246",
-      "CourseName" : "Analysis of Algorithms",
-      "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
-    }, {
       "CourseId" : "CSE2138",
       "CourseName" : "Systems Programming",
       "Credit" : 7,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
-    }, {
-      "CourseId" : "CSE2260",
-      "CourseName" : "Principles of Programming Languages",
-      "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
-    }, {
-      "CourseId" : "EE2032",
-      "CourseName" : "Electronics",
-      "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "STAT2253",
       "CourseName" : "Introduction to Probability and Statistics",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE3215",
       "CourseName" : "Digital Logic Design",
@@ -183,18 +147,6 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
-      "CourseId" : "CSE3055",
-      "CourseName" : "Database Systems",
-      "Credit" : 7,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "CSE3063",
-      "CourseName" : "Object-Oriented Software Design",
-      "Credit" : 5,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
       "CourseId" : "IE3081",
       "CourseName" : "Modeling and Discrete Simulation",
       "Credit" : 4,
@@ -203,15 +155,57 @@
     } ],
     "RegistirationProblems" : [ {
       "ProblemId" : 0,
+      "Course" : "Computer Programming II",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Data Structures",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Electric Circuits",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
       "Course" : "Numerical Methods",
       "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Analysis of Algorithms",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Principles of Programming Languages",
+      "Reason" : null
+    }, {
+      "ProblemId" : 0,
+      "Course" : "Electronics",
+      "Reason" : null
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Database Systems",
+      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Object-Oriented Software Design",
+      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
     } ]
   },
   "RequestedCourses" : [ {
-    "name" : "Calculus I",
+    "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",
     "prerequisiteId" : null,
-    "credit" : 6,
-    "id" : "MATH1001"
+    "credit" : 2,
+    "id" : "ATA121"
+  }, {
+    "name" : "Introduction to Modern Biology",
+    "prerequisiteId" : null,
+    "credit" : 5,
+    "id" : "MBG1201"
+  }, {
+    "name" : "Türk Dili I",
+    "prerequisiteId" : null,
+    "credit" : 2,
+    "id" : "TRD121"
   }, {
     "name" : "Discrete Computational Structures",
     "prerequisiteId" : null,

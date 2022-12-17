@@ -1,7 +1,7 @@
 {
   "ID" : "150122024",
-  "FirstName" : "Fowler",
-  "LastName" : "Anthony",
+  "FirstName" : "Martin",
+  "LastName" : "Hull",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",

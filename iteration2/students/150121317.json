@@ -1,7 +1,7 @@
 {
   "ID" : "150121317",
-  "FirstName" : "Hancock",
-  "LastName" : "Carver",
+  "FirstName" : "Shepard",
+  "LastName" : "Winters",
   "Semester" : 3,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,9 +11,9 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "3.16",
-    "TakenCredit" : 84,
-    "CompletedCredit" : 53,
+    "GPA" : "2.61",
+    "TakenCredit" : 91,
+    "CompletedCredit" : 39,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
@@ -24,44 +24,44 @@
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
@@ -72,8 +72,8 @@
       "CourseId" : "CSE1242",
       "CourseName" : "Computer Programming II",
       "Credit" : 6,
-      "takenCourseStatus" : "Failed",
-      "Grade" : 1.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
@@ -90,30 +90,36 @@
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "PHYS1104",
       "CourseName" : "Physics Lab II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
       "Credit" : 6,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
+      "CourseId" : "CSE2225",
+      "CourseName" : "Data Structures",
+      "Credit" : 7,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
@@ -141,17 +147,28 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ {
-      "ProblemId" : 1,
-      "Course" : "Data Structures",
-      "Reason" : "Prerequisite Computer Programming II isn't passed"
-    } ]
+    "RegistirationProblems" : [ ]
   },
   "RequestedCourses" : [ {
-    "name" : "Physics Lab I",
+    "name" : "Introduction to Modern Biology",
+    "prerequisiteId" : null,
+    "credit" : 5,
+    "id" : "MBG1201"
+  }, {
+    "name" : "Introduction to Computer Engineering",
+    "prerequisiteId" : null,
+    "credit" : 4,
+    "id" : "CSE1200"
+  }, {
+    "name" : "Physics I",
+    "prerequisiteId" : null,
+    "credit" : 4,
+    "id" : "PHYS1101"
+  }, {
+    "name" : "Türk Dili I",
     "prerequisiteId" : null,
     "credit" : 2,
-    "id" : "PHYS1103"
+    "id" : "TRD121"
   }, {
     "name" : "Discrete Computational Structures",
     "prerequisiteId" : null,

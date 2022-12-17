@@ -17,4 +17,9 @@ public class Advisor extends Person{
 	public String getOffice() {
 		return office;
 	}
+
+	@Override
+	public void status() {
+		System.out.println("Advisor in university with id " + super.getID() + " and email " + this.office);
+	}
 }

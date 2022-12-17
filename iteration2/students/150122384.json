@@ -1,7 +1,7 @@
 {
   "ID" : "150122384",
-  "FirstName" : "Petersen",
-  "LastName" : "Waller",
+  "FirstName" : "Johanna",
+  "LastName" : "Burton",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,39 +12,9 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 31,
+    "TakenCredit" : 6,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
-      "CourseId" : "ATA121",
-      "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
-      "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "MBG1201",
-      "CourseName" : "Introduction to Modern Biology",
-      "Credit" : 5,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "CSE1200",
-      "CourseName" : "Introduction to Computer Engineering",
-      "Credit" : 4,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "CSE1241",
-      "CourseName" : "Computer Programming I",
-      "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "MATH1001",
-      "CourseName" : "Calculus I",
-      "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
@@ -56,14 +26,32 @@
       "Credit" : 2,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
-    }, {
-      "CourseId" : "TRD121",
-      "CourseName" : "Türk Dili I",
-      "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ ]
+    "RegistirationProblems" : [ {
+      "ProblemId" : 2,
+      "Course" : "Atatürk İlkeleri ve İnkılap Tarihi I",
+      "Reason" : "The quota is exceeded."
+    }, {
+      "ProblemId" : 2,
+      "Course" : "Introduction to Modern Biology",
+      "Reason" : "The quota is exceeded."
+    }, {
+      "ProblemId" : 2,
+      "Course" : "Introduction to Computer Engineering",
+      "Reason" : "The quota is exceeded."
+    }, {
+      "ProblemId" : 2,
+      "Course" : "Computer Programming I",
+      "Reason" : "The quota is exceeded."
+    }, {
+      "ProblemId" : 2,
+      "Course" : "Calculus I",
+      "Reason" : "The quota is exceeded."
+    }, {
+      "ProblemId" : 2,
+      "Course" : "Türk Dili I",
+      "Reason" : "The quota is exceeded."
+    } ]
   },
   "RequestedCourses" : [ {
     "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",

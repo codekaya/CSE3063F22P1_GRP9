@@ -1,7 +1,7 @@
 {
   "ID" : "150121193",
-  "FirstName" : "Tracy",
-  "LastName" : "Livingston",
+  "FirstName" : "Brittney",
+  "LastName" : "Frost",
   "Semester" : 3,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,9 +11,9 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "2.79",
-    "TakenCredit" : 91,
-    "CompletedCredit" : 54,
+    "GPA" : "2.58",
+    "TakenCredit" : 69,
+    "CompletedCredit" : 31,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
@@ -31,13 +31,13 @@
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
@@ -54,26 +54,20 @@
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
-    }, {
-      "CourseId" : "CSE1242",
-      "CourseName" : "Computer Programming II",
-      "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
@@ -84,8 +78,8 @@
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
       "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
@@ -97,13 +91,13 @@
       "CourseName" : "Physics Lab II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
@@ -117,21 +111,9 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
-      "CourseId" : "CSE2225",
-      "CourseName" : "Data Structures",
-      "Credit" : 7,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
       "Credit" : 4,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "EE2031",
-      "CourseName" : "Electric Circuits",
-      "Credit" : 5,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
@@ -140,14 +122,24 @@
       "Credit" : 4,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
-    }, {
-      "CourseId" : "MATH2059",
-      "CourseName" : "Numerical Methods",
-      "Credit" : 4,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ ]
+    "RegistirationProblems" : [ {
+      "ProblemId" : 0,
+      "Course" : "Computer Programming II",
+      "Reason" : null
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Data Structures",
+      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Electric Circuits",
+      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
+    }, {
+      "ProblemId" : 1,
+      "Course" : "Numerical Methods",
+      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
+    } ]
   },
   "RequestedCourses" : [ {
     "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",
@@ -159,6 +151,21 @@
     "prerequisiteId" : null,
     "credit" : 5,
     "id" : "MBG1201"
+  }, {
+    "name" : "Computer Programming I",
+    "prerequisiteId" : null,
+    "credit" : 6,
+    "id" : "CSE1241"
+  }, {
+    "name" : "Physics Lab I",
+    "prerequisiteId" : null,
+    "credit" : 2,
+    "id" : "PHYS1103"
+  }, {
+    "name" : "Türk Dili I",
+    "prerequisiteId" : null,
+    "credit" : 2,
+    "id" : "TRD121"
   }, {
     "name" : "Discrete Computational Structures",
     "prerequisiteId" : null,

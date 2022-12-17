@@ -85,13 +85,11 @@ public class OutputJSON {
 				if(!course.getSemester().equals(semester)) continue;
 				CourseStatistics courseStatistics = course.getCourseStatistics();
 				String s = course.getID()+" "+courses.get(i).get(j).getName()+" Statistics;\n";
-				s += "	Percentage of sucessfull registerion:"+ Math.round(courseStatistics.getRateOfSuccessfulRegistration() * 100) +"%\n";
+				s += "	Percentage of sucessfull registration:"+ Math.round(courseStatistics.getRateOfSuccessfulRegistration() * 100) +"%\n";
 				s += "	Number of registered students:"+courseStatistics.getRegisteredStudentCount()+"\n";
 				s += "	Number of registration failures:"+courseStatistics.getRegistrationFailureCount()+"\n";
 				s += "	Number of quota problems:"+courseStatistics.getQuotaProblemCount()+"\n";
 				s += "	Number of prerequisite problems:"+courseStatistics.getPrerequisiteProblemCount()+"\n";
-			
-				//System.out.print(s);
 				logger.info(s);
 				allCourseStatistics += s;
 			}
