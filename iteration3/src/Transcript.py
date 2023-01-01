@@ -1,6 +1,7 @@
-
-from typing import List, Optional
-
+import Student
+import TakenCourse
+import Course
+import SelectionProblem
 class Transcript:
     
     def __init__(self, student: Student):
@@ -39,7 +40,7 @@ class Transcript:
         self.gpa = self.gpa / total_credit
         
 
-    def find_course(self, course: Course) -> Optional[TakenCourse]:
+    def find_course(self, course: Course):
         for taken_course in self.takenCourses:
             if taken_course.get_course().get_name() == course.get_name():
                 return taken_course
@@ -51,7 +52,7 @@ class Transcript:
     def get_takenCredit(self) -> int:
         return self.takenCredit
     
-    def get_selectionProblems(self) -> List[SelectionProblem]:
+    def get_selectionProblems(self):
         return self.selectionProblems
     
     def add_selection_problem(self, selection_problem: SelectionProblem):
@@ -60,5 +61,5 @@ class Transcript:
     def get_gpa(self) -> float:
         return self.gpa
     
-    def get_takenCourses(self) -> List[TakenCourse]:
+    def get_takenCourses(self):
         return self.takenCourses

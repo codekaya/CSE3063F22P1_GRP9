@@ -1,4 +1,3 @@
-from typing import List
 import Person
 class Student(Person):
     def __init__(self, Id: str, FName: str, LName: str, semester: int, advisor):
@@ -17,7 +16,7 @@ class Student(Person):
     def get_advisor(self):
         return self.advisor
     
-    def get_requested_courses(self) -> List[Course]:
+    def get_requested_courses(self):
         return self.requested_courses
     
     def add_requested_course(self, course):

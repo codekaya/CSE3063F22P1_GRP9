@@ -1,3 +1,5 @@
+import Person
+
 class Advisor(Person):
     def __init__(self, ID, firstName, lastName, email, office):
         super().__init__(ID, firstName, lastName)
