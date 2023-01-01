@@ -1,5 +1,5 @@
 from typing import List
-
+import Person
 class Student(Person):
     def __init__(self, Id: str, FName: str, LName: str, semester: int, advisor):
         super().__init__(Id, FName, LName)

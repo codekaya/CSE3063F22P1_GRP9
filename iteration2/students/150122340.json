@@ -1,7 +1,7 @@
 {
   "ID" : "150122340",
-  "FirstName" : "Jody",
-  "LastName" : "Reynolds",
+  "FirstName" : "Tia",
+  "LastName" : "Ross",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,12 +12,18 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 26,
+    "TakenCredit" : 31,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
+      "CourseId" : "MBG1201",
+      "CourseName" : "Introduction to Modern Biology",
+      "Credit" : 5,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
@@ -57,11 +63,7 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ {
-      "ProblemId" : 2,
-      "Course" : "Introduction to Modern Biology",
-      "Reason" : "The quota is exceeded."
-    } ]
+    "RegistirationProblems" : [ ]
   },
   "RequestedCourses" : [ {
     "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",

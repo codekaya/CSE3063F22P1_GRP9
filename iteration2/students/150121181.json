@@ -1,7 +1,7 @@
 {
   "ID" : "150121181",
-  "FirstName" : "Buchanan",
-  "LastName" : "Kelley",
+  "FirstName" : "Martinez",
+  "LastName" : "Cherry",
   "Semester" : 3,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,9 +11,9 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "2.60",
+    "GPA" : "2.59",
     "TakenCredit" : 69,
-    "CompletedCredit" : 27,
+    "CompletedCredit" : 24,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
@@ -31,13 +31,13 @@
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
@@ -55,7 +55,7 @@
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
@@ -67,7 +67,7 @@
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
@@ -78,14 +78,14 @@
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
       "Credit" : 5,
-      "takenCourseStatus" : "Failed",
-      "Grade" : 1.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "PHYS1104",
       "CourseName" : "Physics Lab II",
@@ -96,14 +96,14 @@
       "CourseId" : "TRD122",
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
-      "takenCourseStatus" : "Failed",
-      "Grade" : 1.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
@@ -151,6 +151,11 @@
     "prerequisiteId" : null,
     "credit" : 5,
     "id" : "MBG1201"
+  }, {
+    "name" : "Computer Programming I",
+    "prerequisiteId" : null,
+    "credit" : 6,
+    "id" : "CSE1241"
   }, {
     "name" : "Calculus I",
     "prerequisiteId" : null,

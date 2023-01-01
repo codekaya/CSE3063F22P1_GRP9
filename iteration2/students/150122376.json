@@ -1,7 +1,7 @@
 {
   "ID" : "150122376",
-  "FirstName" : "Georgia",
-  "LastName" : "Wilson",
+  "FirstName" : "Jane",
+  "LastName" : "Mccoy",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,15 +12,9 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 12,
+    "TakenCredit" : 8,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
-      "CourseId" : "CSE1200",
-      "CourseName" : "Introduction to Computer Engineering",
-      "Credit" : 4,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
@@ -46,6 +40,10 @@
     }, {
       "ProblemId" : 2,
       "Course" : "Introduction to Modern Biology",
+      "Reason" : "The quota is exceeded."
+    }, {
+      "ProblemId" : 2,
+      "Course" : "Introduction to Computer Engineering",
       "Reason" : "The quota is exceeded."
     }, {
       "ProblemId" : 2,

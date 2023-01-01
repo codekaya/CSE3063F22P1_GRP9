@@ -1,7 +1,7 @@
 {
   "ID" : "150121301",
-  "FirstName" : "Beasley",
-  "LastName" : "Fitzgerald",
+  "FirstName" : "Davidson",
+  "LastName" : "Woods",
   "Semester" : 3,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,21 +11,21 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "3.32",
-    "TakenCredit" : 69,
-    "CompletedCredit" : 43,
+    "GPA" : "2.25",
+    "TakenCredit" : 91,
+    "CompletedCredit" : 24,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
@@ -42,38 +42,44 @@
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
+    }, {
+      "CourseId" : "CSE1242",
+      "CourseName" : "Computer Programming II",
+      "Credit" : 6,
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
@@ -111,9 +117,21 @@
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
+      "CourseId" : "CSE2225",
+      "CourseName" : "Data Structures",
+      "Credit" : 7,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
       "Credit" : 4,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
+      "CourseId" : "EE2031",
+      "CourseName" : "Electric Circuits",
+      "Credit" : 5,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
@@ -122,40 +140,40 @@
       "Credit" : 4,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
+    }, {
+      "CourseId" : "MATH2059",
+      "CourseName" : "Numerical Methods",
+      "Credit" : 4,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     } ],
-    "RegistirationProblems" : [ {
-      "ProblemId" : 0,
-      "Course" : "Computer Programming II",
-      "Reason" : null
-    }, {
-      "ProblemId" : 1,
-      "Course" : "Data Structures",
-      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
-    }, {
-      "ProblemId" : 1,
-      "Course" : "Electric Circuits",
-      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
-    }, {
-      "ProblemId" : 1,
-      "Course" : "Numerical Methods",
-      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
-    } ]
+    "RegistirationProblems" : [ ]
   },
   "RequestedCourses" : [ {
-    "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",
+    "name" : "Introduction to Modern Biology",
     "prerequisiteId" : null,
-    "credit" : 2,
-    "id" : "ATA121"
+    "credit" : 5,
+    "id" : "MBG1201"
   }, {
     "name" : "Introduction to Computer Engineering",
     "prerequisiteId" : null,
     "credit" : 4,
     "id" : "CSE1200"
   }, {
-    "name" : "Physics Lab I",
+    "name" : "Calculus I",
+    "prerequisiteId" : null,
+    "credit" : 6,
+    "id" : "MATH1001"
+  }, {
+    "name" : "Physics I",
+    "prerequisiteId" : null,
+    "credit" : 4,
+    "id" : "PHYS1101"
+  }, {
+    "name" : "Türk Dili I",
     "prerequisiteId" : null,
     "credit" : 2,
-    "id" : "PHYS1103"
+    "id" : "TRD121"
   }, {
     "name" : "Discrete Computational Structures",
     "prerequisiteId" : null,

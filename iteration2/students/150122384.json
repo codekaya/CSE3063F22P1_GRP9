@@ -1,7 +1,7 @@
 {
   "ID" : "150122384",
-  "FirstName" : "Johanna",
-  "LastName" : "Burton",
+  "FirstName" : "Faith",
+  "LastName" : "Hooper",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,7 +12,7 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 6,
+    "TakenCredit" : 8,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
       "CourseId" : "PHYS1101",
@@ -23,6 +23,12 @@
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
+      "Credit" : 2,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
+      "CourseId" : "TRD121",
+      "CourseName" : "Türk Dili I",
       "Credit" : 2,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
@@ -46,10 +52,6 @@
     }, {
       "ProblemId" : 2,
       "Course" : "Calculus I",
-      "Reason" : "The quota is exceeded."
-    }, {
-      "ProblemId" : 2,
-      "Course" : "Türk Dili I",
       "Reason" : "The quota is exceeded."
     } ]
   },

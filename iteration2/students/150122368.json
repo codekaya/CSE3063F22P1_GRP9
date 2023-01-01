@@ -1,7 +1,7 @@
 {
   "ID" : "150122368",
-  "FirstName" : "Lott",
-  "LastName" : "Stokes",
+  "FirstName" : "Kelly",
+  "LastName" : "Nguyen",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,9 +12,15 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 12,
+    "TakenCredit" : 14,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
+      "CourseId" : "ATA121",
+      "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
+      "Credit" : 2,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
@@ -40,10 +46,6 @@
       "Grade" : 0.0
     } ],
     "RegistirationProblems" : [ {
-      "ProblemId" : 2,
-      "Course" : "Atatürk İlkeleri ve İnkılap Tarihi I",
-      "Reason" : "The quota is exceeded."
-    }, {
       "ProblemId" : 2,
       "Course" : "Introduction to Modern Biology",
       "Reason" : "The quota is exceeded."

@@ -1,7 +1,7 @@
 {
   "ID" : "150119259",
-  "FirstName" : "Todd",
-  "LastName" : "Jarvis",
+  "FirstName" : "Harrison",
+  "LastName" : "Sanford",
   "Semester" : 7,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,9 +11,9 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "3.02",
+    "GPA" : "3.11",
     "TakenCredit" : 149,
-    "CompletedCredit" : 85,
+    "CompletedCredit" : 96,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
@@ -25,49 +25,49 @@
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
       "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH1001",
       "CourseName" : "Calculus I",
       "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "ATA122",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
@@ -79,13 +79,13 @@
       "CourseName" : "Linear Algebra for Computer Engineering",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "PHYS1104",
       "CourseName" : "Physics Lab II",
@@ -97,31 +97,31 @@
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
       "Credit" : 3,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE2023",
       "CourseName" : "Discrete Computational Structures",
       "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "MATH2055",
       "CourseName" : "Differential Equations",
       "Credit" : 4,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE2138",
       "CourseName" : "Systems Programming",
@@ -133,19 +133,19 @@
       "CourseName" : "Introduction to Probability and Statistics",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE3215",
       "CourseName" : "Digital Logic Design",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE3033",
       "CourseName" : "Operating Systems",
       "Credit" : 7,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "IE3081",
       "CourseName" : "Modeling and Discrete Simulation",
@@ -157,19 +157,19 @@
       "CourseName" : "Computer Organization",
       "Credit" : 7,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "CSE3044",
       "CourseName" : "Software Engineering",
       "Credit" : 7,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "CSE3048",
       "CourseName" : "Introduction to Signals and Systems",
       "Credit" : 5,
-      "takenCourseStatus" : "Failed",
-      "Grade" : 1.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE3264",
       "CourseName" : "Formal Languages and Automata Theory",
@@ -180,14 +180,14 @@
       "CourseId" : "IE3235",
       "CourseName" : "Operations Research",
       "Credit" : 4,
-      "takenCourseStatus" : "Failed",
-      "Grade" : 1.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 4.0
     }, {
       "CourseId" : "COM2202",
       "CourseName" : "Technical Comm. and Entrepreneurship",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE4074",
       "CourseName" : "Computer Networks",
@@ -266,25 +266,25 @@
     } ]
   },
   "RequestedCourses" : [ {
-    "name" : "Computer Programming I",
+    "name" : "Türk Dili I",
+    "prerequisiteId" : null,
+    "credit" : 2,
+    "id" : "TRD121"
+  }, {
+    "name" : "Engineering Economy",
+    "prerequisiteId" : null,
+    "credit" : 4,
+    "id" : "ECON2004"
+  }, {
+    "name" : "Differential Equations",
+    "prerequisiteId" : null,
+    "credit" : 4,
+    "id" : "MATH2055"
+  }, {
+    "name" : "Digital Logic Design",
     "prerequisiteId" : null,
     "credit" : 6,
-    "id" : "CSE1241"
-  }, {
-    "name" : "Calculus I",
-    "prerequisiteId" : null,
-    "credit" : 6,
-    "id" : "MATH1001"
-  }, {
-    "name" : "Discrete Computational Structures",
-    "prerequisiteId" : null,
-    "credit" : 6,
-    "id" : "CSE2023"
-  }, {
-    "name" : "Operating Systems",
-    "prerequisiteId" : null,
-    "credit" : 7,
-    "id" : "CSE3033"
+    "id" : "CSE3215"
   }, {
     "name" : "Modeling and Discrete Simulation",
     "prerequisiteId" : null,

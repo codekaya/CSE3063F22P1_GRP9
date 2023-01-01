@@ -1,7 +1,7 @@
 {
   "ID" : "150122364",
-  "FirstName" : "Warner",
-  "LastName" : "Woods",
+  "FirstName" : "Jean",
+  "LastName" : "Morris",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,9 +12,15 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 24,
+    "TakenCredit" : 20,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
+      "CourseId" : "ATA121",
+      "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
+      "Credit" : 2,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
@@ -23,12 +29,6 @@
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
-      "Credit" : 6,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
-    }, {
-      "CourseId" : "MATH1001",
-      "CourseName" : "Calculus I",
       "Credit" : 6,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
@@ -53,11 +53,11 @@
     } ],
     "RegistirationProblems" : [ {
       "ProblemId" : 2,
-      "Course" : "Atatürk İlkeleri ve İnkılap Tarihi I",
+      "Course" : "Introduction to Modern Biology",
       "Reason" : "The quota is exceeded."
     }, {
       "ProblemId" : 2,
-      "Course" : "Introduction to Modern Biology",
+      "Course" : "Calculus I",
       "Reason" : "The quota is exceeded."
     } ]
   },

@@ -1,7 +1,7 @@
 {
   "ID" : "150122396",
-  "FirstName" : "Oconnor",
-  "LastName" : "Hampton",
+  "FirstName" : "Hunt",
+  "LastName" : "Cooke",
   "Semester" : 1,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -12,12 +12,12 @@
   },
   "Transcript" : {
     "GPA" : "NaN",
-    "TakenCredit" : 4,
+    "TakenCredit" : 2,
     "CompletedCredit" : 0,
     "TakenCourses" : [ {
-      "CourseId" : "PHYS1101",
-      "CourseName" : "Physics I",
-      "Credit" : 4,
+      "CourseId" : "TRD121",
+      "CourseName" : "Türk Dili I",
+      "Credit" : 2,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     } ],
@@ -43,11 +43,11 @@
       "Reason" : "The quota is exceeded."
     }, {
       "ProblemId" : 2,
-      "Course" : "Physics Lab I",
+      "Course" : "Physics I",
       "Reason" : "The quota is exceeded."
     }, {
       "ProblemId" : 2,
-      "Course" : "Türk Dili I",
+      "Course" : "Physics Lab I",
       "Reason" : "The quota is exceeded."
     } ]
   },

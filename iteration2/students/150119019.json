@@ -1,7 +1,7 @@
 {
   "ID" : "150119019",
-  "FirstName" : "Haley",
-  "LastName" : "Lane",
+  "FirstName" : "Nina",
+  "LastName" : "Middleton",
   "Semester" : 7,
   "Advisor" : {
     "firstName" : "Haluk Rahmi",
@@ -11,27 +11,27 @@
     "id" : "1"
   },
   "Transcript" : {
-    "GPA" : "2.72",
-    "TakenCredit" : 130,
-    "CompletedCredit" : 112,
+    "GPA" : "2.45",
+    "TakenCredit" : 149,
+    "CompletedCredit" : 97,
     "TakenCourses" : [ {
       "CourseId" : "ATA121",
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi I",
       "Credit" : 2,
-      "takenCourseStatus" : "Current",
-      "Grade" : 0.0
+      "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
     }, {
       "CourseId" : "MBG1201",
       "CourseName" : "Introduction to Modern Biology",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE1200",
       "CourseName" : "Introduction to Computer Engineering",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "CSE1241",
       "CourseName" : "Computer Programming I",
@@ -43,19 +43,19 @@
       "CourseName" : "Calculus I",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "PHYS1101",
       "CourseName" : "Physics I",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1103",
       "CourseName" : "Physics Lab I",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "TRD121",
       "CourseName" : "Türk Dili I",
@@ -67,25 +67,25 @@
       "CourseName" : "Atatürk İlkeleri ve İnkılap Tarihi II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 3.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "MATH1002",
       "CourseName" : "Calculus II",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "MATH2256",
       "CourseName" : "Linear Algebra for Computer Engineering",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 4.0
     }, {
       "CourseId" : "PHYS1102",
       "CourseName" : "Physics II",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "Grade" : 2.0
     }, {
       "CourseId" : "PHYS1104",
       "CourseName" : "Physics Lab II",
@@ -97,7 +97,7 @@
       "CourseName" : "Türk Dili II",
       "Credit" : 2,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "NTExxx",
       "CourseName" : "Non-Technical Elective - 1",
@@ -109,7 +109,7 @@
       "CourseName" : "Discrete Computational Structures",
       "Credit" : 6,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "ECON2004",
       "CourseName" : "Engineering Economy",
@@ -127,49 +127,67 @@
       "CourseName" : "Systems Programming",
       "Credit" : 7,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "STAT2253",
       "CourseName" : "Introduction to Probability and Statistics",
       "Credit" : 5,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE3215",
       "CourseName" : "Digital Logic Design",
       "Credit" : 6,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "CSE3033",
       "CourseName" : "Operating Systems",
       "Credit" : 7,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
     }, {
       "CourseId" : "IE3081",
       "CourseName" : "Modeling and Discrete Simulation",
       "Credit" : 4,
       "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "Grade" : 3.0
     }, {
       "CourseId" : "CSE3038",
       "CourseName" : "Computer Organization",
       "Credit" : 7,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 2.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "CSE3044",
       "CourseName" : "Software Engineering",
       "Credit" : 7,
       "takenCourseStatus" : "Passed",
+      "Grade" : 2.0
+    }, {
+      "CourseId" : "CSE3048",
+      "CourseName" : "Introduction to Signals and Systems",
+      "Credit" : 5,
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
+    }, {
+      "CourseId" : "CSE3264",
+      "CourseName" : "Formal Languages and Automata Theory",
+      "Credit" : 5,
+      "takenCourseStatus" : "Passed",
       "Grade" : 4.0
+    }, {
+      "CourseId" : "IE3235",
+      "CourseName" : "Operations Research",
+      "Credit" : 4,
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "COM2202",
       "CourseName" : "Technical Comm. and Entrepreneurship",
       "Credit" : 2,
-      "takenCourseStatus" : "Passed",
-      "Grade" : 4.0
+      "takenCourseStatus" : "Failed",
+      "Grade" : 1.0
     }, {
       "CourseId" : "CSE4074",
       "CourseName" : "Computer Networks",
@@ -186,6 +204,12 @@
       "CourseId" : "ISG121",
       "CourseName" : "İş Sağlığı ve Güvenliği I",
       "Credit" : 2,
+      "takenCourseStatus" : "Current",
+      "Grade" : 0.0
+    }, {
+      "CourseId" : "CSE4288",
+      "CourseName" : "Introduction to Machine Learning",
+      "Credit" : 5,
       "takenCourseStatus" : "Current",
       "Grade" : 0.0
     }, {
@@ -232,25 +256,9 @@
       "Course" : "Object-Oriented Software Design",
       "Reason" : null
     }, {
-      "ProblemId" : 0,
-      "Course" : "Introduction to Signals and Systems",
-      "Reason" : null
-    }, {
-      "ProblemId" : 0,
-      "Course" : "Formal Languages and Automata Theory",
-      "Reason" : null
-    }, {
-      "ProblemId" : 0,
-      "Course" : "Operations Research",
-      "Reason" : null
-    }, {
       "ProblemId" : 4,
       "Course" : "Engineering Project I",
       "Reason" : "Student should have completed more than 165 credit to enroll CSE4297"
-    }, {
-      "ProblemId" : 1,
-      "Course" : "Introduction to Machine Learning",
-      "Reason" : "Prerequisite Atatürk İlkeleri ve İnkılap Tarihi I isn't passed"
     }, {
       "ProblemId" : 4,
       "Course" : "Technical Elective - 1",
@@ -258,10 +266,15 @@
     } ]
   },
   "RequestedCourses" : [ {
-    "name" : "Atatürk İlkeleri ve İnkılap Tarihi I",
+    "name" : "Digital Logic Design",
     "prerequisiteId" : null,
-    "credit" : 2,
-    "id" : "ATA121"
+    "credit" : 6,
+    "id" : "CSE3215"
+  }, {
+    "name" : "Operating Systems",
+    "prerequisiteId" : null,
+    "credit" : 7,
+    "id" : "CSE3033"
   }, {
     "name" : "Computer Networks",
     "prerequisiteId" : null,
