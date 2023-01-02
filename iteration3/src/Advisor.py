@@ -6,10 +6,10 @@ class Advisor(Person):
         self.email = email
         self.office = office
 
-    def get_email(self):
+    def getEmail(self):
         return self.email
 
-    def get_office(self):
+    def getOffice(self):
         return self.office
 
     def status(self):
