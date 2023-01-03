@@ -1,65 +1,73 @@
-import json
+
+from CourseStatistics import CourseStatistics
 
 class Course:
+
     def __init__(self):
         self.courseStatistics = CourseStatistics()
+        self.ID = 0 
+        self.name = ''
+        self.prerequisite = None
+        self.prerequisiteId = ''
+        self.quota = 0
+        self.credit = 0
+        self.semsester = ''
 
-    @property
-    def ID(self):
+
+    def getID(self):
         return self.ID
 
-    @ID.setter
-    def ID(self, id):
+    
+    def setID(self, id):
         self.ID = id
 
-    @property
-    def name(self):
+    
+    def getName(self):
         return self.name
 
-    @name.setter
-    def name(self, name):
+    
+    def setName(self, name):
         self.name = name
 
-    @property
-    def prerequisite(self):
+   
+    def getPrerequisite(self):
         return self.prerequisite
 
-    @prerequisite.setter
-    def prerequisite(self, prerequisite):
+   
+    def setPrerequisite(self, prerequisite):
         self.prerequisite = prerequisite
 
-    @property
-    def prerequisiteId(self):
+    
+    def getPrerequisiteId(self):
         return self.prerequisiteId
 
-    @prerequisiteId.setter
-    def prerequisiteId(self, prerequisiteId):
+    
+    def setPrerequisiteId(self, prerequisiteId):
         self.prerequisiteId = prerequisiteId
 
-    @property
-    def quota(self):
+    def getQuota(self):
         return self.quota
 
-    @quota.setter
-    def quota(self, quota):
+   
+    def setQuota(self, quota):
         self.quota = quota
 
-    @property
-    def credit(self):
+   
+    def getCredit(self):
         return self.credit
 
-    @credit.setter
-    def credit(self, credit):
+   
+    def setCredit(self, credit):
         self.credit = credit
 
-    @property
-    def semester(self):
+   
+    def getSemester(self):
         return self.semester
 
-    @semester.setter
-    def semester(self, semester):
+   
+    def setSemester(self, semester):
         self.semester = semester
 
-    @property
-    def courseStatistics(self):
+    
+    def getCourseStatistics(self):
         return self.courseStatistics
