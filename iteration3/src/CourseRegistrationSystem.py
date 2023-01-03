@@ -1,7 +1,13 @@
+import logging
+from SelectionProblem import SelectionProblem
+from TakenCourse import TakenCourse
+
+
 class CourseRegistrationSystem:
     def __init__(self, semester):
         self.semester = semester
         self.MAX_COURSE_COUNT = 10
+        self.logger = logging.getLogger(__name__)
 
     def registerStudent(self, student):
         transcript = student.getTranscript()
@@ -38,7 +44,8 @@ class CourseRegistrationSystem:
                 transcript.addSelectionProblem(problem)
                 continue
             course.getCourseStatistics().incrRegisteredStudentCount()
-            TakenCourse = TakenCourse(course, 0, "Current")
-            transcript.addTakenCourse(TakenCourse)
+            takenCourse = TakenCourse(course, 0, "Current")
+            transcript.addTakenCourse(takenCourse)
             course.setQuota(course.getQuota() - 1)
             coursesTaken += 1
+        self.logger.warning('WARNING')
