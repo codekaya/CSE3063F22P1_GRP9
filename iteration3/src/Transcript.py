@@ -1,7 +1,7 @@
-import Student
-import TakenCourse
-import Course
-import SelectionProblem
+from Student import Student
+from TakenCourse import TakenCourse
+from Course import Course
+from SelectionProblem import SelectionProblem
 class Transcript:
     
     def __init__(self, student: Student):
@@ -12,10 +12,10 @@ class Transcript:
         self.takenCourses = []
         self.selectionProblems = []
 
-    def add_taken_course(self, taken_course: TakenCourse):
-        status = taken_course.get_taken_course_status()
-        credit = taken_course.get_course().get_credit()
-        taken_course_in_transcript = self.find_course(taken_course.get_course())
+    def addTakenCourse(self, taken_course: TakenCourse):
+        status = taken_course.getTakenCourseStatus()
+        credit = taken_course.getCourse().getCredit()
+        taken_course_in_transcript = self.findCourse(taken_course.getCourse())
         if taken_course_in_transcript is None:
             self.takenCourses.append(taken_course)
             self.takenCredit += credit
@@ -24,42 +24,44 @@ class Transcript:
         else:
             if status == "Passed":
                 self.completedCredit += credit
-            taken_course_in_transcript.set_grade(taken_course.get_grade())
-            taken_course_in_transcript.set_taken_course_status(taken_course.get_taken_course_status())
-        self.calculate_gpa()
+            taken_course_in_transcript.setGrade(taken_course.getGrade())
+            taken_course_in_transcript.setTakenCourseStatus(taken_course.getTakenCourseStatus())
+        self.calculateGpa()
        
 
-    def calculate_gpa(self):
+    def calculateGpa(self):
         total_credit = 0
         self.gpa = 0
         for taken_course in self.takenCourses:
-            if taken_course.get_taken_course_status() != "Current":
-                credit = taken_course.get_course().get_credit()
-                self.gpa += taken_course.get_grade() * credit
+            if taken_course.getTakenCourseStatus() != "Current":
+                credit = taken_course.getCourse().getCredit()
+                self.gpa += taken_course.getGrade() * credit
                 total_credit += credit
-        self.gpa = self.gpa / total_credit
-        
+        try:
+         self.gpa = self.gpa / total_credit
+        except ZeroDivisionError:
+         pass
 
-    def find_course(self, course: Course):
+    def findCourse(self, course: Course):
         for taken_course in self.takenCourses:
-            if taken_course.get_course().get_name() == course.get_name():
+            if taken_course.getCourse().getName() == course.getName():
                 return taken_course
         return None
     
-    def get_completedCredit(self) -> int:
+    def getCompletedCredit(self) -> int:
         return self.completedCredit
     
-    def get_takenCredit(self) -> int:
+    def getTakenCredit(self) -> int:
         return self.takenCredit
     
-    def get_selectionProblems(self):
+    def getSelectionProblems(self):
         return self.selectionProblems
     
-    def add_selection_problem(self, selection_problem: SelectionProblem):
+    def addSelectionProblem(self, selection_problem: SelectionProblem):
         self.selectionProblems.append(selection_problem)
     
-    def get_gpa(self) -> float:
+    def getGpa(self) -> float:
         return self.gpa
     
-    def get_takenCourses(self):
+    def getTakenCourses(self):
         return self.takenCourses
