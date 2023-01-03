@@ -1,7 +1,14 @@
-import random
-from typing import List
+
+from InputJSON import InputJSON
+from OutputJSON import OutputJSON
+from RandomStudent import RandomStudent
+
+
+
+from CourseRegistrationSystem import CourseRegistrationSystem
 
 class CourseRegistrationSimulation:
+
     def startSimulation(self):
         input = InputJSON()
         students = self.generateStudents(input)
@@ -12,10 +19,10 @@ class CourseRegistrationSimulation:
         
         output = OutputJSON()
         for student in students:
-            output.saveStudent(student)
-        output.saveCourseStatistics(input.getCourses(), input.getSemester())
+                output.saveStudent(student)
+        #output.saveCourseStatistics(input.getCourses(), input.getSemester())
     
-    def generateStudents(self, input: InputJSON) -> List[Student]:
+    def generateStudents(self, input):
         randomStudent = RandomStudent(input)
         students = []
         semester = input.getSemester()
