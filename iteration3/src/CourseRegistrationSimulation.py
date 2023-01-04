@@ -20,7 +20,7 @@ class CourseRegistrationSimulation:
         output = OutputJSON()
         for student in students:
                 output.saveStudent(student)
-        #output.saveCourseStatistics(input.getCourses(), input.getSemester())
+        output.saveCourseStatistics(input.getCourses(), input.getSemester())
     
     def generateStudents(self, input):
         randomStudent = RandomStudent(input)

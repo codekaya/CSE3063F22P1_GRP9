@@ -93,8 +93,9 @@ class OutputJSON:
                 s += "	Number of quota problems:"+str(courseStatistics.getQuotaProblemCount())+"\n"
                 s += "	Number of prerequisite problems:"+str(courseStatistics.getPrerequisiteProblemCount())+"\n"
                 allCourseStatistics += s
+                print(allCourseStatistics)
         
-        f = open(f'DepartmentStatistics', "w",encoding='utf-8')
+        f = open(f'DepartmentStatistics.txt', "w",encoding='utf-8')
         f.write(allCourseStatistics)
         f.close()    
        

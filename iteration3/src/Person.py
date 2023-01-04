@@ -7,11 +7,11 @@ class Person:
     def status(self):
         raise NotImplementedError("The status method must be implemented by the subclass.")
         
-    def get_ID(self):
+    def getID(self):
         return self.ID
     
-    def get_first_name(self):
+    def getFirstName(self):
         return self.first_name
     
-    def get_last_name(self):
+    def getLastName(self):
         return self.last_name

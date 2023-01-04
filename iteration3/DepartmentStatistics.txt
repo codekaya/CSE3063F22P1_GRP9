@@ -1,0 +1,156 @@
+ATA121 Atatürk İlkeleri ve İnkılap Tarihi I Statistics;
+	Percentage of sucessfull registration:96%
+    Number of registered students:150
+	Number of registration failures:7
+	Number of quota problems:7
+	Number of prerequisite problems:0
+MBG1201 Introduction to Modern Biology Statistics;
+	Percentage of sucessfull registration:91%
+    Number of registered students:150
+	Number of registration failures:14
+	Number of quota problems:14
+	Number of prerequisite problems:0
+CSE1200 Introduction to Computer Engineering Statistics;
+	Percentage of sucessfull registration:92%
+    Number of registered students:151
+	Number of registration failures:13
+	Number of quota problems:13
+	Number of prerequisite problems:0
+CSE1241 Computer Programming I Statistics;
+	Percentage of sucessfull registration:85%
+    Number of registered students:150
+	Number of registration failures:26
+	Number of quota problems:26
+	Number of prerequisite problems:0
+MATH1001 Calculus I Statistics;
+	Percentage of sucessfull registration:90%
+    Number of registered students:150
+	Number of registration failures:16
+	Number of quota problems:16
+	Number of prerequisite problems:0
+PHYS1101 Physics I Statistics;
+	Percentage of sucessfull registration:91%
+    Number of registered students:156
+	Number of registration failures:15
+	Number of quota problems:15
+	Number of prerequisite problems:0
+PHYS1103 Physics Lab I Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:154
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+TRD121 Türk Dili I Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:156
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE2023 Discrete Computational Structures Statistics;
+	Percentage of sucessfull registration:92%
+    Number of registered students:151
+	Number of registration failures:13
+	Number of quota problems:13
+	Number of prerequisite problems:0
+CSE2225 Data Structures Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:149
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+ECON2004 Engineering Economy Statistics;
+	Percentage of sucessfull registration:96%
+    Number of registered students:153
+	Number of registration failures:7
+	Number of quota problems:7
+	Number of prerequisite problems:0
+EE2031 Electric Circuits Statistics;
+	Percentage of sucessfull registration:98%
+    Number of registered students:154
+	Number of registration failures:3
+	Number of quota problems:3
+	Number of prerequisite problems:0
+MATH2055 Differential Equations Statistics;
+	Percentage of sucessfull registration:94%
+    Number of registered students:155
+	Number of registration failures:10
+	Number of quota problems:9
+	Number of prerequisite problems:0
+MATH2059 Numerical Methods Statistics;
+	Percentage of sucessfull registration:97%
+    Number of registered students:152
+	Number of registration failures:4
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE3215 Digital Logic Design Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:136
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE3033 Operating Systems Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:142
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE3055 Database Systems Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:147
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE3063 Object-Oriented Software Design Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:146
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+IE3081 Modeling and Discrete Simulation Statistics;
+	Percentage of sucessfull registration:96%
+    Number of registered students:132
+	Number of registration failures:6
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4074 Computer Networks Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4219 Principles of Embedded System Design Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4297 Engineering Project I Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+ISG121 İş Sağlığı ve Güvenliği I Statistics;
+	Percentage of sucessfull registration:100%
+    Number of registered students:100
+	Number of registration failures:0
+	Number of quota problems:0
+	Number of prerequisite problems:0
+CSE4288 Introduction to Machine Learning Statistics;
+	Percentage of sucessfull registration:96%
+    Number of registered students:96
+	Number of registration failures:4
+	Number of quota problems:0
+	Number of prerequisite problems:0
+UE University Elective Statistics;
+	Percentage of sucessfull registration:90%
+    Number of registered students:90
+	Number of registration failures:10
+	Number of quota problems:0
+	Number of prerequisite problems:0
+TExxx Technical Elective - 1 Statistics;
+	Percentage of sucessfull registration:69%
+    Number of registered students:69
+	Number of registration failures:31
+	Number of quota problems:0
+	Number of prerequisite problems:0
