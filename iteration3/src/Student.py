@@ -1,4 +1,5 @@
-import Person
+from Person import Person
+import json
 class Student(Person):
     def __init__(self, Id: str, FName: str, LName: str, semester: int, advisor):
         super().__init__(Id, FName, LName)
@@ -7,23 +8,26 @@ class Student(Person):
         self.requested_courses = []
         self.transcript = None
         
-    def get_semester(self):
+    def getSemester(self):
         return self.semester
     
-    def get_transcript(self):
+    def getTranscript(self):
         return self.transcript
     
-    def get_advisor(self):
+    def getAdvisor(self):
         return self.advisor
     
-    def get_requested_courses(self):
+    def getRequestedCourses(self):
         return self.requested_courses
     
-    def add_requested_course(self, course):
+    def addRequestedCourse(self, course):
         self.requested_courses.append(course)
         
-    def set_transcript(self, transcript):
+    def setTranscript(self, transcript):
         self.transcript = transcript
         
     def status(self):
         print(f"Student in university with id {self.get_ID()} and semester {self.semester}")
+    
+    def toJson(self):
+        return json.dumps(self, default=lambda o: o.__dict__)

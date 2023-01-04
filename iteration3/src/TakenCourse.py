@@ -1,6 +1,3 @@
-
-
-
 class TakenCourse:
 
     def __init__(self,course,grade,takenCourseStatus):
@@ -12,7 +9,7 @@ class TakenCourse:
         return self.course
     
     def getTakenCourseStatus(self):
-        return self.getTakenCourseStatus
+        return self.takenCourseStatus
     
     def setTakenCourseStatus(self,takenCourseStatus):
         self.takenCourseStatus = takenCourseStatus
