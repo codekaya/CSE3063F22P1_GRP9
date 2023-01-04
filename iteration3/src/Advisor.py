@@ -1,4 +1,5 @@
-import Person
+from Person import Person
+
 
 class Advisor(Person):
     def __init__(self, ID, firstName, lastName, email, office):
@@ -6,10 +7,10 @@ class Advisor(Person):
         self.email = email
         self.office = office
 
-    def getEmail(self):
+    def get_email(self):
         return self.email
 
-    def getOffice(self):
+    def get_office(self):
         return self.office
 
     def status(self):
