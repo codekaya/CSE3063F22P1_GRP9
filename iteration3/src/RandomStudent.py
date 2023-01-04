@@ -1,19 +1,25 @@
 import math
 from random import randrange
 import random
-import TakenCourse
+from TakenCourse import TakenCourse
+from Transcript import Transcript
+from SelectionProblem import SelectionProblem
+from Student import Student
+import logging
 
 class RandomStudent:
     def __init__(self,input):
         self.input = input
+        self.logger = logging.getLogger(__name__)
 
     def createRandomStudent(self,semester,order):
         Id = self.getRandomId(semester, order)
         Fname = self.getRandomFirstName()
         Lname = self.getRandomLastName()
         advisor = self.getRandomAdvisor()
-        student = Student(Id, Fname, Lname, semester, advisor)
+        student = Student(Id, Fname, Lname, semester + 1, advisor)
         self.createStudentTranscript(semester, student)
+        self.logger.info('CREATE RANDOM STUDENT OKEY')
         return student
 
     def getRandomId(self, semester, order):
@@ -28,7 +34,7 @@ class RandomStudent:
         return self.input.getLastNames()[randrange(0, 399)]
 
     def getRandomAdvisor(self):
-        return self.input.getAdvisors()[0]
+        return self.input.getAdvisors()[randrange(0,11)]
 
     def createStudentTranscript(self,semester,student):
         transcript = Transcript(student)
@@ -75,8 +81,7 @@ class RandomStudent:
                 grade = random.randint(2,4)    
             takenCourse = TakenCourse(registeredCourses[i],grade,status)
             takenCourses.append(takenCourse)
-
-        return takenCourse
+        return takenCourses
 
     def registerRequestedCourses(self,requestedCourses,transcript):
         registeredCourses = []
