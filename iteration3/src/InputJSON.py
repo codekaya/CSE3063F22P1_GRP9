@@ -1,6 +1,6 @@
 import json
-import Advisor
-import Course
+from Advisor import Advisor
+from Course import Course
 
 class InputJSON:
     def __init__(self):
@@ -16,7 +16,7 @@ class InputJSON:
             semester = coursesJSON['s'+str(i)]
             for course in semester:
                 c = self.getCourseObject(course)
-                semesterCourses.append(course)
+                semesterCourses.append(c)
             self.courses.append(semesterCourses)
         for semester in self.courses:
             for course in semester:
