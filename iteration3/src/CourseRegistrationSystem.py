@@ -21,7 +21,7 @@ class CourseRegistrationSystem:
                 transcript.addSelectionProblem(problem)
                 continue
             prerequisite = course.getPrerequisite()
-            if prerequisite is not None:
+            if prerequisite:
                 prerequisiteInTranscript = transcript.findCourse(prerequisite)
                 if prerequisiteInTranscript is None or prerequisiteInTranscript.getTakenCourseStatus() != "Passed":
                     course.getCourseStatistics().incrRegistrationFailureCount()

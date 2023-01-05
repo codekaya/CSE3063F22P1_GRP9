@@ -1,7 +1,7 @@
 {
     "ID": "150122140",
-    "First Name": "Winnie",
-    "Last Name": "Hughes",
+    "First Name": "Mays",
+    "Last Name": "Walsh",
     "Semester": 1,
     "Advisor": {
         "ID": "3",
@@ -78,49 +78,49 @@
         {
             "ID": "ATA121",
             "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 2
         },
         {
             "ID": "MBG1201",
             "Course Name": "Introduction to Modern Biology",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 5
         },
         {
             "ID": "CSE1200",
             "Course Name": "Introduction to Computer Engineering",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         },
         {
             "ID": "CSE1241",
             "Course Name": "Computer Programming I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 6
         },
         {
             "ID": "MATH1001",
             "Course Name": "Calculus I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 6
         },
         {
             "ID": "PHYS1101",
             "Course Name": "Physics I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         },
         {
             "ID": "PHYS1103",
             "Course Name": "Physics Lab I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 2
         },
         {
             "ID": "TRD121",
             "Course Name": "Türk Dili I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 2
         }
     ]

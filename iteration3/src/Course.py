@@ -8,7 +8,7 @@ class Course:
         self.ID = 0 
         self.name = ''
         self.prerequisite = None
-        self.prerequisiteId = ''
+        self.prerequisiteId = None
         self.quota = 0
         self.credit = 0
         self.semsester = ''

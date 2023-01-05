@@ -1,26 +1,26 @@
 {
     "ID": "150120390",
-    "First Name": "Melendez",
-    "Last Name": "Whitney",
+    "First Name": "Annmarie",
+    "Last Name": "Gould",
     "Semester": 5,
     "Advisor": {
-        "ID": "4",
-        "First Name": "Murat Can",
-        "Last Name": "GANİZ",
-        "Email": "murat.ganiz@marmara.edu.tr",
-        "Office": "M2-251"
+        "ID": "1",
+        "First Name": "Haluk Rahmi",
+        "Last Name": "TOPÇUOĞLU",
+        "Email": "haluk@marmara.edu.tr",
+        "Office": "M2-217"
     },
     "Transcript": {
-        "GPA": 2.918918918918919,
+        "GPA": 2.9152542372881354,
         "Taken Credit": 147,
-        "Completed Credit": 96,
+        "Completed Credit": 113,
         "Taken Courses": [
             {
                 "Course ID": "ATA121",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "MBG1201",
@@ -34,7 +34,7 @@
                 "Course Name": "Introduction to Computer Engineering",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 2
             },
             {
                 "Course ID": "CSE1241",
@@ -62,28 +62,28 @@
                 "Course Name": "Physics Lab I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "TRD121",
                 "Course Name": "Türk Dili I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "ATA122",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 2
             },
             {
                 "Course ID": "CSE1242",
                 "Course Name": "Computer Programming II",
                 "Credit": 6,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "MATH1002",
@@ -97,14 +97,14 @@
                 "Course Name": "Linear Algebra for Computer Engineering",
                 "Credit": 5,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 2
             },
             {
                 "Course ID": "PHYS1102",
                 "Course Name": "Physics II",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "PHYS1104",
@@ -118,35 +118,35 @@
                 "Course Name": "Türk Dili II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "NTExxx",
                 "Course Name": "Non-Technical Elective - 1",
                 "Credit": 3,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 2
             },
             {
                 "Course ID": "CSE2023",
                 "Course Name": "Discrete Computational Structures",
                 "Credit": 6,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 3
             },
             {
                 "Course ID": "CSE2225",
                 "Course Name": "Data Structures",
                 "Credit": 7,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 4
             },
             {
                 "Course ID": "ECON2004",
                 "Course Name": "Engineering Economy",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "EE2031",
@@ -159,36 +159,36 @@
                 "Course ID": "MATH2055",
                 "Course Name": "Differential Equations",
                 "Credit": 4,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 4
             },
             {
                 "Course ID": "MATH2059",
                 "Course Name": "Numerical Methods",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "CSE2246",
                 "Course Name": "Analysis of Algorithms",
                 "Credit": 6,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 2
             },
             {
                 "Course ID": "CSE2138",
                 "Course Name": "Systems Programming",
                 "Credit": 7,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "CSE2260",
                 "Course Name": "Principles of Programming Languages",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "EE2032",
@@ -202,7 +202,7 @@
                 "Course Name": "Introduction to Probability and Statistics",
                 "Credit": 5,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 2
             },
             {
                 "Course ID": "CSE3215",
@@ -240,37 +240,19 @@
                 "Grade": 0
             }
         ],
-        "Registration Problems": [
-            {
-                "Problem Id": 2,
-                "Course": "Differential Equations",
-                "Reason": "The quota is exceeded."
-            }
-        ]
+        "Registration Problems": []
     },
     "Requested Courses": [
         {
-            "ID": "CSE2225",
-            "Course Name": "Data Structures",
-            "Prerequisite Id": "CSE1242",
-            "credit": 7
-        },
-        {
-            "ID": "MATH2055",
-            "Course Name": "Differential Equations",
-            "Prerequisite Id": "",
-            "credit": 4
-        },
-        {
             "ID": "CSE3215",
             "Course Name": "Digital Logic Design",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 6
         },
         {
             "ID": "CSE3033",
             "Course Name": "Operating Systems",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 7
         },
         {
@@ -288,7 +270,7 @@
         {
             "ID": "IE3081",
             "Course Name": "Modeling and Discrete Simulation",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         }
     ]

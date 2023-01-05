@@ -1,33 +1,33 @@
 {
     "ID": "150121197",
-    "First Name": "Brandi",
-    "Last Name": "Bradley",
+    "First Name": "Gay",
+    "Last Name": "Jenkins",
     "Semester": 3,
     "Advisor": {
-        "ID": "9",
-        "First Name": "Fatma Corut",
-        "Last Name": "ERGİN",
-        "Email": "fatma.ergin@marmara.edu.tr",
-        "Office": "M2-229"
+        "ID": "4",
+        "First Name": "Murat Can",
+        "Last Name": "GANİZ",
+        "Email": "murat.ganiz@marmara.edu.tr",
+        "Office": "M2-251"
     },
     "Transcript": {
-        "GPA": 2.2291666666666665,
-        "Taken Credit": 91,
-        "Completed Credit": 34,
+        "GPA": 2.795918367346939,
+        "Taken Credit": 78,
+        "Completed Credit": 49,
         "Taken Courses": [
             {
                 "Course ID": "ATA121",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                 "Credit": 2,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 4
             },
             {
                 "Course ID": "MBG1201",
                 "Course Name": "Introduction to Modern Biology",
                 "Credit": 5,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 2
             },
             {
                 "Course ID": "CSE1200",
@@ -48,14 +48,14 @@
                 "Course Name": "Calculus I",
                 "Credit": 6,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 3
             },
             {
                 "Course ID": "PHYS1101",
                 "Course Name": "Physics I",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "PHYS1103",
@@ -76,21 +76,14 @@
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
-            },
-            {
-                "Course ID": "CSE1242",
-                "Course Name": "Computer Programming II",
-                "Credit": 6,
-                "Status": "Failed",
-                "Grade": 1
+                "Grade": 4
             },
             {
                 "Course ID": "MATH1002",
                 "Course Name": "Calculus II",
                 "Credit": 6,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 2
             },
             {
                 "Course ID": "MATH2256",
@@ -104,21 +97,21 @@
                 "Course Name": "Physics II",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 3
             },
             {
                 "Course ID": "PHYS1104",
                 "Course Name": "Physics Lab II",
                 "Credit": 2,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 4
             },
             {
                 "Course ID": "TRD122",
                 "Course Name": "Türk Dili II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 3
             },
             {
                 "Course ID": "NTExxx",
@@ -131,13 +124,6 @@
                 "Course ID": "CSE2023",
                 "Course Name": "Discrete Computational Structures",
                 "Credit": 6,
-                "Status": "Current",
-                "Grade": 0
-            },
-            {
-                "Course ID": "CSE2225",
-                "Course Name": "Data Structures",
-                "Credit": 7,
                 "Status": "Current",
                 "Grade": 0
             },
@@ -170,31 +156,30 @@
                 "Grade": 0
             }
         ],
-        "Registration Problems": []
+        "Registration Problems": [
+            {
+                "Problem Id": null,
+                "Course": "Computer Programming II",
+                "Reason": null
+            },
+            {
+                "Problem Id": 1,
+                "Course": "Data Structures",
+                "Reason": "Prerequisite Computer Programming II isn't passed"
+            }
+        ]
     },
     "Requested Courses": [
         {
-            "ID": "ATA121",
-            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
-            "Prerequisite Id": "",
-            "credit": 2
-        },
-        {
-            "ID": "MBG1201",
-            "Course Name": "Introduction to Modern Biology",
-            "Prerequisite Id": "",
-            "credit": 5
-        },
-        {
             "ID": "CSE1241",
             "Course Name": "Computer Programming I",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 6
         },
         {
             "ID": "CSE2023",
             "Course Name": "Discrete Computational Structures",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 6
         },
         {
@@ -206,7 +191,7 @@
         {
             "ID": "ECON2004",
             "Course Name": "Engineering Economy",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         },
         {
@@ -218,7 +203,7 @@
         {
             "ID": "MATH2055",
             "Course Name": "Differential Equations",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         },
         {

@@ -1,9 +1,4 @@
 class SelectionProblem:
-    def __init__(self, not_registered_course):
-        self.not_registered_course = not_registered_course
-        self.id = None
-        self.description = None
-
     def __init__(self, id, not_registered_course, description):
         self.not_registered_course = not_registered_course
         self.id = id

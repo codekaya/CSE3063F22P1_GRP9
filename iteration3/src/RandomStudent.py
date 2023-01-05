@@ -91,7 +91,7 @@ class RandomStudent:
                 continue
             prerequisiteInTranscript = transcript.findCourse(course.getPrerequisite())
             if prerequisiteInTranscript is None or prerequisiteInTranscript.getTakenCourseStatus() != 'Passed':
-                sp = SelectionProblem(course)
+                sp = SelectionProblem(None,course,None)
                 transcript.addSelectionProblem(sp)
             else:
                 registeredCourses.append(course)

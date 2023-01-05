@@ -1,19 +1,19 @@
 {
     "ID": "150121249",
-    "First Name": "Warren",
-    "Last Name": "Cash",
+    "First Name": "Beard",
+    "Last Name": "Brewer",
     "Semester": 3,
     "Advisor": {
-        "ID": "11",
-        "First Name": "Ali Haydar",
-        "Last Name": "ÖZER",
-        "Email": "haydar.ozer@marmara.edu.tr",
-        "Office": "M2-253"
+        "ID": "5",
+        "First Name": "Mujdat",
+        "Last Name": "SOYTÜRK",
+        "Email": "mujdat.soyturk@marmara.edu.tr",
+        "Office": ":M2-204"
     },
     "Transcript": {
-        "GPA": 2.0961538461538463,
+        "GPA": 2.7704918032786887,
         "Taken Credit": 91,
-        "Completed Credit": 37,
+        "Completed Credit": 59,
         "Taken Courses": [
             {
                 "Course ID": "ATA121",
@@ -26,8 +26,8 @@
                 "Course ID": "MBG1201",
                 "Course Name": "Introduction to Modern Biology",
                 "Credit": 5,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 4
             },
             {
                 "Course ID": "CSE1200",
@@ -54,36 +54,36 @@
                 "Course ID": "PHYS1101",
                 "Course Name": "Physics I",
                 "Credit": 4,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 3
             },
             {
                 "Course ID": "PHYS1103",
                 "Course Name": "Physics Lab I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 3
             },
             {
                 "Course ID": "TRD121",
                 "Course Name": "Türk Dili I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 2
             },
             {
                 "Course ID": "ATA122",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "CSE1242",
                 "Course Name": "Computer Programming II",
                 "Credit": 6,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 3
             },
             {
                 "Course ID": "MATH1002",
@@ -96,29 +96,29 @@
                 "Course ID": "MATH2256",
                 "Course Name": "Linear Algebra for Computer Engineering",
                 "Credit": 5,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 3
             },
             {
                 "Course ID": "PHYS1102",
                 "Course Name": "Physics II",
                 "Credit": 4,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 2
             },
             {
                 "Course ID": "PHYS1104",
                 "Course Name": "Physics Lab II",
                 "Credit": 2,
-                "Status": "Passed",
-                "Grade": 2
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "TRD122",
                 "Course Name": "Türk Dili II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "NTExxx",
@@ -174,21 +174,9 @@
     },
     "Requested Courses": [
         {
-            "ID": "MBG1201",
-            "Course Name": "Introduction to Modern Biology",
-            "Prerequisite Id": "",
-            "credit": 5
-        },
-        {
-            "ID": "PHYS1101",
-            "Course Name": "Physics I",
-            "Prerequisite Id": "",
-            "credit": 4
-        },
-        {
             "ID": "CSE2023",
             "Course Name": "Discrete Computational Structures",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 6
         },
         {
@@ -200,7 +188,7 @@
         {
             "ID": "ECON2004",
             "Course Name": "Engineering Economy",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         },
         {
@@ -212,7 +200,7 @@
         {
             "ID": "MATH2055",
             "Course Name": "Differential Equations",
-            "Prerequisite Id": "",
+            "Prerequisite Id": null,
             "credit": 4
         },
         {

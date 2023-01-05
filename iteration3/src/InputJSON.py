@@ -21,7 +21,8 @@ class InputJSON:
         for semester in self.courses:
             for course in semester:
                 if course.getPrerequisiteId() != None:
-                    course.setPrerequisite(self.findCourse(course.getPrerequisiteId()))
+                    prereq = self.findCourse(course.getPrerequisiteId())
+                    course.setPrerequisite(prereq)
     
     def getCourseObject(self,courseJSON):
         course = Course()
@@ -37,7 +38,7 @@ class InputJSON:
     def findCourse(self,prerequisiteId):
         for semester in self.courses:
             for course in semester:
-                if course.getID == prerequisiteId:
+                if course.getID() == prerequisiteId:
                     return course
         return None
 
