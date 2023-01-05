@@ -1,14 +1,14 @@
 {
     "ID": "150122040",
-    "First Name": "Shepard",
-    "Last Name": "Giles",
+    "First Name": "Weeks",
+    "Last Name": "Gallagher",
     "Semester": 1,
     "Advisor": {
-        "ID": "1",
-        "First Name": "Haluk Rahmi",
-        "Last Name": "TOPÇUOĞLU",
-        "Email": "haluk@marmara.edu.tr",
-        "Office": "M2-217"
+        "ID": "3",
+        "First Name": "Ali Fuat",
+        "Last Name": "ALKAYA",
+        "Email": "falkaya@marmara.edu.tr",
+        "Office": "M2-249"
     },
     "Transcript": {
         "GPA": 0,

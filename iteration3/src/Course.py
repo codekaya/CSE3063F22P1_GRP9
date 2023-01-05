@@ -12,6 +12,7 @@ class Course:
         self.quota = 0
         self.credit = 0
         self.semsester = ''
+        self._scheduleList = []
 
 
     def getID(self):
@@ -71,3 +72,9 @@ class Course:
     
     def getCourseStatistics(self):
         return self.courseStatistics
+
+    def getScheduleList(self):
+        return self._scheduleList
+    
+    def addSchedule(self,schedule):
+        self._scheduleList.append(schedule)

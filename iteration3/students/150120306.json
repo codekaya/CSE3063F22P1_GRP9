@@ -1,33 +1,33 @@
 {
     "ID": "150120306",
-    "First Name": "Lara",
-    "Last Name": "Baker",
+    "First Name": "Aisha",
+    "Last Name": "Chan",
     "Semester": 5,
     "Advisor": {
-        "ID": "1",
-        "First Name": "Haluk Rahmi",
-        "Last Name": "TOPÇUOĞLU",
-        "Email": "haluk@marmara.edu.tr",
-        "Office": "M2-217"
+        "ID": "3",
+        "First Name": "Ali Fuat",
+        "Last Name": "ALKAYA",
+        "Email": "falkaya@marmara.edu.tr",
+        "Office": "M2-249"
     },
     "Transcript": {
-        "GPA": 3.032967032967033,
-        "Taken Credit": 112,
-        "Completed Credit": 86,
+        "GPA": 2.8518518518518516,
+        "Taken Credit": 107,
+        "Completed Credit": 60,
         "Taken Courses": [
             {
                 "Course ID": "ATA121",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                 "Credit": 2,
-                "Status": "Passed",
-                "Grade": 3
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "MBG1201",
                 "Course Name": "Introduction to Modern Biology",
                 "Credit": 5,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 4
             },
             {
                 "Course ID": "CSE1200",
@@ -41,7 +41,7 @@
                 "Course Name": "Computer Programming I",
                 "Credit": 6,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 3
             },
             {
                 "Course ID": "MATH1001",
@@ -55,28 +55,28 @@
                 "Course Name": "Physics I",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 4
+                "Grade": 2
             },
             {
                 "Course ID": "PHYS1103",
                 "Course Name": "Physics Lab I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 4
             },
             {
                 "Course ID": "TRD121",
                 "Course Name": "Türk Dili I",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 4
             },
             {
                 "Course ID": "ATA122",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                 "Credit": 2,
-                "Status": "Passed",
-                "Grade": 4
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "MATH1002",
@@ -104,21 +104,21 @@
                 "Course Name": "Physics Lab II",
                 "Credit": 2,
                 "Status": "Passed",
-                "Grade": 2
+                "Grade": 4
             },
             {
                 "Course ID": "TRD122",
                 "Course Name": "Türk Dili II",
                 "Credit": 2,
-                "Status": "Passed",
-                "Grade": 2
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "NTExxx",
                 "Course Name": "Non-Technical Elective - 1",
                 "Credit": 3,
-                "Status": "Passed",
-                "Grade": 3
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "CSE2023",
@@ -131,22 +131,22 @@
                 "Course ID": "ECON2004",
                 "Course Name": "Engineering Economy",
                 "Credit": 4,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 2
             },
             {
                 "Course ID": "EE2031",
                 "Course Name": "Electric Circuits",
                 "Credit": 5,
-                "Status": "Passed",
-                "Grade": 4
+                "Status": "Current",
+                "Grade": 0
             },
             {
                 "Course ID": "MATH2055",
                 "Course Name": "Differential Equations",
                 "Credit": 4,
-                "Status": "Passed",
-                "Grade": 4
+                "Status": "Current",
+                "Grade": 0
             },
             {
                 "Course ID": "MATH2059",
@@ -159,15 +159,8 @@
                 "Course ID": "CSE2138",
                 "Course Name": "Systems Programming",
                 "Credit": 7,
-                "Status": "Passed",
-                "Grade": 2
-            },
-            {
-                "Course ID": "EE2032",
-                "Course Name": "Electronics",
-                "Credit": 5,
-                "Status": "Passed",
-                "Grade": 2
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "STAT2253",
@@ -200,24 +193,9 @@
         ],
         "Registration Problems": [
             {
-                "Problem Id": null,
-                "Course": "Computer Programming II",
-                "Reason": null
-            },
-            {
-                "Problem Id": null,
-                "Course": "Data Structures",
-                "Reason": null
-            },
-            {
-                "Problem Id": null,
-                "Course": "Analysis of Algorithms",
-                "Reason": null
-            },
-            {
-                "Problem Id": null,
-                "Course": "Principles of Programming Languages",
-                "Reason": null
+                "Problem Id": 2,
+                "Course": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                "Reason": "The quota is exceeded."
             },
             {
                 "Problem Id": 1,
@@ -233,8 +211,20 @@
     },
     "Requested Courses": [
         {
-            "ID": "ECON2004",
-            "Course Name": "Engineering Economy",
+            "ID": "ATA121",
+            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+            "Prerequisite Id": null,
+            "credit": 2
+        },
+        {
+            "ID": "EE2031",
+            "Course Name": "Electric Circuits",
+            "Prerequisite Id": "PHYS1102",
+            "credit": 5
+        },
+        {
+            "ID": "MATH2055",
+            "Course Name": "Differential Equations",
             "Prerequisite Id": null,
             "credit": 4
         },

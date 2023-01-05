@@ -1,14 +1,14 @@
 {
     "ID": "150122152",
-    "First Name": "Bradshaw",
-    "Last Name": "Richards",
+    "First Name": "Lowery",
+    "Last Name": "Vega",
     "Semester": 1,
     "Advisor": {
-        "ID": "9",
-        "First Name": "Fatma Corut",
-        "Last Name": "ERGİN",
-        "Email": "fatma.ergin@marmara.edu.tr",
-        "Office": "M2-229"
+        "ID": "4",
+        "First Name": "Murat Can",
+        "Last Name": "GANİZ",
+        "Email": "murat.ganiz@marmara.edu.tr",
+        "Office": "M2-251"
     },
     "Transcript": {
         "GPA": 0,

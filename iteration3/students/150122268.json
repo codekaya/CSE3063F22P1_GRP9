@@ -1,7 +1,7 @@
 {
     "ID": "150122268",
-    "First Name": "Merrill",
-    "Last Name": "Byers",
+    "First Name": "Terrell",
+    "Last Name": "Collins",
     "Semester": 1,
     "Advisor": {
         "ID": "3",
@@ -12,16 +12,9 @@
     },
     "Transcript": {
         "GPA": 0,
-        "Taken Credit": 31,
+        "Taken Credit": 25,
         "Completed Credit": 0,
         "Taken Courses": [
-            {
-                "Course ID": "ATA121",
-                "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
-                "Credit": 2,
-                "Status": "Current",
-                "Grade": 0
-            },
             {
                 "Course ID": "MBG1201",
                 "Course Name": "Introduction to Modern Biology",
@@ -51,13 +44,6 @@
                 "Grade": 0
             },
             {
-                "Course ID": "PHYS1101",
-                "Course Name": "Physics I",
-                "Credit": 4,
-                "Status": "Current",
-                "Grade": 0
-            },
-            {
                 "Course ID": "PHYS1103",
                 "Course Name": "Physics Lab I",
                 "Credit": 2,
@@ -72,7 +58,18 @@
                 "Grade": 0
             }
         ],
-        "Registration Problems": []
+        "Registration Problems": [
+            {
+                "Problem Id": 2,
+                "Course": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                "Reason": "The quota is exceeded."
+            },
+            {
+                "Problem Id": 2,
+                "Course": "Physics I",
+                "Reason": "The quota is exceeded."
+            }
+        ]
     },
     "Requested Courses": [
         {

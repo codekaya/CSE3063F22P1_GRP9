@@ -1,14 +1,14 @@
 {
     "ID": "150122032",
-    "First Name": "Vazquez",
-    "Last Name": "Cervantes",
+    "First Name": "Wilma",
+    "Last Name": "Howe",
     "Semester": 1,
     "Advisor": {
-        "ID": "2",
-        "First Name": "Çiğdem Eroğlu",
-        "Last Name": "ERDEM",
-        "Email": "cigdem.erdem@marmara.edu.tr",
-        "Office": "M2-208"
+        "ID": "1",
+        "First Name": "Haluk Rahmi",
+        "Last Name": "TOPÇUOĞLU",
+        "Email": "haluk@marmara.edu.tr",
+        "Office": "M2-217"
     },
     "Transcript": {
         "GPA": 0,

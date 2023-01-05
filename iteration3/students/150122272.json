@@ -1,27 +1,20 @@
 {
     "ID": "150122272",
-    "First Name": "Kara",
-    "Last Name": "Mathews",
+    "First Name": "Russell",
+    "Last Name": "Pugh",
     "Semester": 1,
     "Advisor": {
-        "ID": "4",
-        "First Name": "Murat Can",
-        "Last Name": "GANİZ",
-        "Email": "murat.ganiz@marmara.edu.tr",
-        "Office": "M2-251"
+        "ID": "9",
+        "First Name": "Fatma Corut",
+        "Last Name": "ERGİN",
+        "Email": "fatma.ergin@marmara.edu.tr",
+        "Office": "M2-229"
     },
     "Transcript": {
         "GPA": 0,
-        "Taken Credit": 31,
+        "Taken Credit": 19,
         "Completed Credit": 0,
         "Taken Courses": [
-            {
-                "Course ID": "ATA121",
-                "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
-                "Credit": 2,
-                "Status": "Current",
-                "Grade": 0
-            },
             {
                 "Course ID": "MBG1201",
                 "Course Name": "Introduction to Modern Biology",
@@ -44,20 +37,6 @@
                 "Grade": 0
             },
             {
-                "Course ID": "MATH1001",
-                "Course Name": "Calculus I",
-                "Credit": 6,
-                "Status": "Current",
-                "Grade": 0
-            },
-            {
-                "Course ID": "PHYS1101",
-                "Course Name": "Physics I",
-                "Credit": 4,
-                "Status": "Current",
-                "Grade": 0
-            },
-            {
                 "Course ID": "PHYS1103",
                 "Course Name": "Physics Lab I",
                 "Credit": 2,
@@ -72,7 +51,23 @@
                 "Grade": 0
             }
         ],
-        "Registration Problems": []
+        "Registration Problems": [
+            {
+                "Problem Id": 2,
+                "Course": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                "Reason": "The quota is exceeded."
+            },
+            {
+                "Problem Id": 2,
+                "Course": "Calculus I",
+                "Reason": "The quota is exceeded."
+            },
+            {
+                "Problem Id": 2,
+                "Course": "Physics I",
+                "Reason": "The quota is exceeded."
+            }
+        ]
     },
     "Requested Courses": [
         {

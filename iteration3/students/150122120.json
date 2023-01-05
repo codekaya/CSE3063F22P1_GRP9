@@ -1,14 +1,14 @@
 {
     "ID": "150122120",
-    "First Name": "Rice",
-    "Last Name": "Moody",
+    "First Name": "Howell",
+    "Last Name": "Hooper",
     "Semester": 1,
     "Advisor": {
-        "ID": "1",
-        "First Name": "Haluk Rahmi",
-        "Last Name": "TOPÇUOĞLU",
-        "Email": "haluk@marmara.edu.tr",
-        "Office": "M2-217"
+        "ID": "7",
+        "First Name": "Mehmet",
+        "Last Name": "BARAN",
+        "Email": "mehmet.baran@marmara.edu.tr",
+        "Office": "M2-233"
     },
     "Transcript": {
         "GPA": 0,

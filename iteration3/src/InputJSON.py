@@ -1,13 +1,15 @@
 import json
 from Advisor import Advisor
 from Course import Course
-
+from Schedule import Schedule
+import logging
 class InputJSON:
     def __init__(self):
         file = open('parameters.json',encoding='utf-8')
         self.input = json.load(file)
         self.courses = []
         self.readCourses()
+        self.logger = logging.getLogger(__name__)
     
     def readCourses(self):
         coursesJSON = self.input['courses']
@@ -33,6 +35,10 @@ class InputJSON:
         course.setQuota(courseJSON['Quota'])
         course.setCredit(courseJSON['Credit'])
         course.setSemester(courseJSON['Semester'])
+        for i in courseJSON['DayTime']:
+            day = i['day']
+            startingTime = i['time'][0:2]
+            course.addSchedule(Schedule(day,startingTime))
         return course
     
     def findCourse(self,prerequisiteId):
@@ -54,7 +60,6 @@ class InputJSON:
             advisor = Advisor(Id,fName,lName,email,office)
             advisors.append(advisor)
         return advisors
-                       
         
     def getFirstNames(self):
         return self.input['firstNames']

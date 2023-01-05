@@ -1,14 +1,14 @@
 {
     "ID": "150122224",
-    "First Name": "Ramirez",
-    "Last Name": "Sellers",
+    "First Name": "Lucia",
+    "Last Name": "Mccoy",
     "Semester": 1,
     "Advisor": {
-        "ID": "11",
-        "First Name": "Ali Haydar",
-        "Last Name": "ÖZER",
-        "Email": "haydar.ozer@marmara.edu.tr",
-        "Office": "M2-253"
+        "ID": "6",
+        "First Name": "Mustafa",
+        "Last Name": "AĞOĞLU",
+        "Email": "agaoglu@marmara.edu.tr",
+        "Office": "M2-221"
     },
     "Transcript": {
         "GPA": 0,

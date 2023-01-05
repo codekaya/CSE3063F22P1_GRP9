@@ -64,10 +64,11 @@ class RandomStudent:
             tmp = currentSemester
             currentSemester = nextSemester
             nextSemester = tmp
-
+        transcript.getSelectionProblems().clear()
         student.setTranscript(transcript)
         for course in requestedCourses:
             student.addRequestedCourse(course)
+
 
     def simulateGrades(self,registeredCourses):
         probabilityOfPassingCourse = self.input.getProbabilityOfPassingCourse()

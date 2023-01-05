@@ -42,10 +42,8 @@ class CourseRegistrationSystem:
                 description = "Student can't take more than 10 courses at one semester."
                 problem = SelectionProblem(3, course, description)
                 transcript.addSelectionProblem(problem)
-                continue
-            course.getCourseStatistics().incrRegisteredStudentCount()
-            takenCourse = TakenCourse(course, 0, "Current")
-            transcript.addTakenCourse(takenCourse)
-            course.setQuota(course.getQuota() - 1)
-            coursesTaken += 1
-        self.logger.warning('WARNING')
+                continue         
+            if student.registerToCourse(course):
+                course.getCourseStatistics().incrRegisteredStudentCount()
+                course.setQuota(course.getQuota() - 1)
+                coursesTaken += 1

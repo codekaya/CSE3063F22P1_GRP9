@@ -1,19 +1,19 @@
 {
     "ID": "150121097",
-    "First Name": "Ashley",
-    "Last Name": "Christian",
+    "First Name": "Dolores",
+    "Last Name": "Rowe",
     "Semester": 3,
     "Advisor": {
-        "ID": "4",
-        "First Name": "Murat Can",
-        "Last Name": "GANİZ",
-        "Email": "murat.ganiz@marmara.edu.tr",
-        "Office": "M2-251"
+        "ID": "6",
+        "First Name": "Mustafa",
+        "Last Name": "AĞOĞLU",
+        "Email": "agaoglu@marmara.edu.tr",
+        "Office": "M2-221"
     },
     "Transcript": {
-        "GPA": 2.65,
-        "Taken Credit": 78,
-        "Completed Credit": 32,
+        "GPA": 2.03125,
+        "Taken Credit": 69,
+        "Completed Credit": 15,
         "Taken Courses": [
             {
                 "Course ID": "ATA121",
@@ -34,7 +34,7 @@
                 "Course Name": "Introduction to Computer Engineering",
                 "Credit": 4,
                 "Status": "Passed",
-                "Grade": 3
+                "Grade": 2
             },
             {
                 "Course ID": "CSE1241",
@@ -47,22 +47,22 @@
                 "Course ID": "MATH1001",
                 "Course Name": "Calculus I",
                 "Credit": 6,
-                "Status": "Passed",
-                "Grade": 2
+                "Status": "Current",
+                "Grade": 0
             },
             {
                 "Course ID": "PHYS1101",
                 "Course Name": "Physics I",
                 "Credit": 4,
-                "Status": "Passed",
-                "Grade": 2
+                "Status": "Current",
+                "Grade": 0
             },
             {
                 "Course ID": "PHYS1103",
                 "Course Name": "Physics Lab I",
                 "Credit": 2,
-                "Status": "Current",
-                "Grade": 0
+                "Status": "Passed",
+                "Grade": 3
             },
             {
                 "Course ID": "TRD121",
@@ -75,8 +75,8 @@
                 "Course ID": "ATA122",
                 "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                 "Credit": 2,
-                "Status": "Passed",
-                "Grade": 3
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "MATH1002",
@@ -96,29 +96,29 @@
                 "Course ID": "PHYS1102",
                 "Course Name": "Physics II",
                 "Credit": 4,
-                "Status": "Passed",
-                "Grade": 3
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "PHYS1104",
                 "Course Name": "Physics Lab II",
                 "Credit": 2,
-                "Status": "Failed",
-                "Grade": 1
+                "Status": "Passed",
+                "Grade": 3
             },
             {
                 "Course ID": "TRD122",
                 "Course Name": "Türk Dili II",
                 "Credit": 2,
-                "Status": "Passed",
-                "Grade": 4
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "NTExxx",
                 "Course Name": "Non-Technical Elective - 1",
                 "Credit": 3,
-                "Status": "Passed",
-                "Grade": 4
+                "Status": "Failed",
+                "Grade": 1
             },
             {
                 "Course ID": "CSE2023",
@@ -135,22 +135,8 @@
                 "Grade": 0
             },
             {
-                "Course ID": "EE2031",
-                "Course Name": "Electric Circuits",
-                "Credit": 5,
-                "Status": "Current",
-                "Grade": 0
-            },
-            {
                 "Course ID": "MATH2055",
                 "Course Name": "Differential Equations",
-                "Credit": 4,
-                "Status": "Current",
-                "Grade": 0
-            },
-            {
-                "Course ID": "MATH2059",
-                "Course Name": "Numerical Methods",
                 "Credit": 4,
                 "Status": "Current",
                 "Grade": 0
@@ -158,14 +144,19 @@
         ],
         "Registration Problems": [
             {
-                "Problem Id": null,
-                "Course": "Computer Programming II",
-                "Reason": null
-            },
-            {
                 "Problem Id": 1,
                 "Course": "Data Structures",
                 "Reason": "Prerequisite Computer Programming II isn't passed"
+            },
+            {
+                "Problem Id": 1,
+                "Course": "Electric Circuits",
+                "Reason": "Prerequisite Physics II isn't passed"
+            },
+            {
+                "Problem Id": 1,
+                "Course": "Numerical Methods",
+                "Reason": "Prerequisite Calculus I isn't passed"
             }
         ]
     },
@@ -189,10 +180,16 @@
             "credit": 6
         },
         {
-            "ID": "PHYS1103",
-            "Course Name": "Physics Lab I",
+            "ID": "MATH1001",
+            "Course Name": "Calculus I",
             "Prerequisite Id": null,
-            "credit": 2
+            "credit": 6
+        },
+        {
+            "ID": "PHYS1101",
+            "Course Name": "Physics I",
+            "Prerequisite Id": null,
+            "credit": 4
         },
         {
             "ID": "CSE2023",
