@@ -9,8 +9,8 @@ import logging
 
 class RandomStudent:
     def __init__(self,input):
-        self.input = input
-        self.logger = logging.getLogger(__name__)
+        self._input = input
+        self._logger = logging.getLogger(__name__)
 
     def createRandomStudent(self,semester,order):
         Id = self.getRandomId(semester, order)
@@ -19,7 +19,7 @@ class RandomStudent:
         advisor = self.getRandomAdvisor()
         student = Student(Id, Fname, Lname, semester + 1, advisor)
         self.createStudentTranscript(semester, student)
-        self.logger.info('CREATE RANDOM STUDENT OKEY')
+        self._logger.info(f'Random student with id:{Id} in semester {semester + 1} created successfully.')
         return student
 
     def getRandomId(self, semester, order):
@@ -28,13 +28,13 @@ class RandomStudent:
         return str(id)
 
     def getRandomFirstName(self):
-        return self.input.getFirstNames()[randrange(0, 399)]
+        return self._input.getFirstNames()[randrange(0, 399)]
 
     def getRandomLastName(self):
-        return self.input.getLastNames()[randrange(0, 399)]
+        return self._input.getLastNames()[randrange(0, 399)]
 
     def getRandomAdvisor(self):
-        return self.input.getAdvisors()[randrange(0,11)]
+        return self._input.getAdvisors()[randrange(0,11)]
 
     def createStudentTranscript(self,semester,student):
         transcript = Transcript(student)
@@ -64,14 +64,11 @@ class RandomStudent:
             tmp = currentSemester
             currentSemester = nextSemester
             nextSemester = tmp
-        transcript.getSelectionProblems().clear()
         student.setTranscript(transcript)
-        for course in requestedCourses:
-            student.addRequestedCourse(course)
 
 
     def simulateGrades(self,registeredCourses):
-        probabilityOfPassingCourse = self.input.getProbabilityOfPassingCourse()
+        probabilityOfPassingCourse = self._input.getProbabilityOfPassingCourse()
         takenCourses = []
         for i in range(len(registeredCourses)):
             status = 'Passed'
@@ -99,6 +96,6 @@ class RandomStudent:
         return registeredCourses
     
     def appendCoursesAtSemester(self,semester,requestedCourses):
-        semesterCourses = self.input.getCourses()[semester-1]
+        semesterCourses = self._input.getCourses()[semester-1]
         for i in range(len(semesterCourses)):
             requestedCourses.append(semesterCourses[i])
