@@ -1,14 +1,14 @@
 {
     "ID": "150122160",
-    "First Name": "Marisa",
-    "Last Name": "Whitfield",
+    "First Name": "Marianne",
+    "Last Name": "Barr",
     "Semester": 1,
     "Advisor": {
-        "ID": "6",
-        "First Name": "Mustafa",
-        "Last Name": "AĞOĞLU",
-        "Email": "agaoglu@marmara.edu.tr",
-        "Office": "M2-221"
+        "ID": "5",
+        "First Name": "Mujdat",
+        "Last Name": "SOYTÜRK",
+        "Email": "mujdat.soyturk@marmara.edu.tr",
+        "Office": ":M2-204"
     },
     "Transcript": {
         "GPA": 0,

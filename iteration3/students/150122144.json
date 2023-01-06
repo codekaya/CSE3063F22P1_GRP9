@@ -1,14 +1,14 @@
 {
     "ID": "150122144",
-    "First Name": "Terrell",
-    "Last Name": "Castro",
+    "First Name": "Gaines",
+    "Last Name": "Foreman",
     "Semester": 1,
     "Advisor": {
-        "ID": "11",
-        "First Name": "Ali Haydar",
-        "Last Name": "ÖZER",
-        "Email": "haydar.ozer@marmara.edu.tr",
-        "Office": "M2-253"
+        "ID": "8",
+        "First Name": "Betül Demiröz",
+        "Last Name": "BOZ",
+        "Email": "betul.demiroz@marmara.edu.tr",
+        "Office": "M2-234"
     },
     "Transcript": {
         "GPA": 0,

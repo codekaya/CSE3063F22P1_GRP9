@@ -6,21 +6,21 @@ import logging
 class InputJSON:
     def __init__(self):
         file = open('parameters.json',encoding='utf-8')
-        self.input = json.load(file)
-        self.courses = []
+        self._input = json.load(file)
+        self._courses = []
         self.readCourses()
-        self.logger = logging.getLogger(__name__)
+        self._logger = logging.getLogger(__name__)
     
     def readCourses(self):
-        coursesJSON = self.input['courses']
+        coursesJSON = self._input['courses']
         for i in range(1,9):
             semesterCourses = []
             semester = coursesJSON['s'+str(i)]
             for course in semester:
                 c = self.getCourseObject(course)
                 semesterCourses.append(c)
-            self.courses.append(semesterCourses)
-        for semester in self.courses:
+            self._courses.append(semesterCourses)
+        for semester in self._courses:
             for course in semester:
                 if course.getPrerequisiteId() != None:
                     prereq = self.findCourse(course.getPrerequisiteId())
@@ -42,7 +42,7 @@ class InputJSON:
         return course
     
     def findCourse(self,prerequisiteId):
-        for semester in self.courses:
+        for semester in self._courses:
             for course in semester:
                 if course.getID() == prerequisiteId:
                     return course
@@ -50,7 +50,7 @@ class InputJSON:
 
     def getAdvisors(self):
         advisors = []
-        advisorsJSON = self.input['advisors']
+        advisorsJSON = self._input['advisors']
         for i in advisorsJSON:
             fName = i['firstName']
             lName = i['lastName']
@@ -62,20 +62,19 @@ class InputJSON:
         return advisors
         
     def getFirstNames(self):
-        return self.input['firstNames']
+        return self._input['firstNames']
     
     def getLastNames(self):
-        return self.input['lastNames']
+        return self._input['lastNames']
     
     def getCourses(self):
-        return self.courses
+        return self._courses
     
     def getSemester(self):
-        return self.input['semester']
+        return self._input['semester']
         
     def getNumberOfStudents(self):
-        return self.input['numberOfStudents']
+        return self._input['numberOfStudents']
     
     def getProbabilityOfPassingCourse(self):
-        return self.input['probabilityOfPassingCourse']
-            
+        return self._input['probabilityOfPassingCourse']     

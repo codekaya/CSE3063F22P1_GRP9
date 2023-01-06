@@ -1,20 +1,27 @@
 {
     "ID": "150122252",
-    "First Name": "Conner",
-    "Last Name": "Bright",
+    "First Name": "Annmarie",
+    "Last Name": "Wilkins",
     "Semester": 1,
     "Advisor": {
-        "ID": "6",
-        "First Name": "Mustafa",
-        "Last Name": "AĞOĞLU",
-        "Email": "agaoglu@marmara.edu.tr",
-        "Office": "M2-221"
+        "ID": "4",
+        "First Name": "Murat Can",
+        "Last Name": "GANİZ",
+        "Email": "murat.ganiz@marmara.edu.tr",
+        "Office": "M2-251"
     },
     "Transcript": {
         "GPA": 0,
-        "Taken Credit": 29,
+        "Taken Credit": 31,
         "Completed Credit": 0,
         "Taken Courses": [
+            {
+                "Course ID": "ATA121",
+                "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                "Credit": 2,
+                "Status": "Current",
+                "Grade": 0
+            },
             {
                 "Course ID": "MBG1201",
                 "Course Name": "Introduction to Modern Biology",
@@ -65,13 +72,7 @@
                 "Grade": 0
             }
         ],
-        "Registration Problems": [
-            {
-                "Problem Id": 2,
-                "Course": "Atatürk İlkeleri ve İnkılap Tarihi I",
-                "Reason": "The quota is exceeded."
-            }
-        ]
+        "Registration Problems": []
     },
     "Requested Courses": [
         {

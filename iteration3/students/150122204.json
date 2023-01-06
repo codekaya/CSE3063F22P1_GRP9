@@ -1,14 +1,14 @@
 {
     "ID": "150122204",
-    "First Name": "Nicholson",
-    "Last Name": "Lane",
+    "First Name": "Townsend",
+    "Last Name": "Whitfield",
     "Semester": 1,
     "Advisor": {
-        "ID": "5",
-        "First Name": "Mujdat",
-        "Last Name": "SOYTÜRK",
-        "Email": "mujdat.soyturk@marmara.edu.tr",
-        "Office": ":M2-204"
+        "ID": "3",
+        "First Name": "Ali Fuat",
+        "Last Name": "ALKAYA",
+        "Email": "falkaya@marmara.edu.tr",
+        "Office": "M2-249"
     },
     "Transcript": {
         "GPA": 0,

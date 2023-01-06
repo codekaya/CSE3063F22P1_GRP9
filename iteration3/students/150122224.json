@@ -1,14 +1,14 @@
 {
     "ID": "150122224",
-    "First Name": "Lucia",
-    "Last Name": "Mccoy",
+    "First Name": "Petra",
+    "Last Name": "Hill",
     "Semester": 1,
     "Advisor": {
-        "ID": "6",
-        "First Name": "Mustafa",
-        "Last Name": "AĞOĞLU",
-        "Email": "agaoglu@marmara.edu.tr",
-        "Office": "M2-221"
+        "ID": "2",
+        "First Name": "Çiğdem Eroğlu",
+        "Last Name": "ERDEM",
+        "Email": "cigdem.erdem@marmara.edu.tr",
+        "Office": "M2-208"
     },
     "Transcript": {
         "GPA": 0,

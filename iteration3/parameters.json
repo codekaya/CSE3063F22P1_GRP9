@@ -1,7 +1,7 @@
 {
   "semester":"Fall",
   "numberOfStudents":400,
-  "probabilityOfPassingCourse":0.4,
+  "probabilityOfPassingCourse":0.8,
   "courses":{
     "s1":[
       {
@@ -92,7 +92,7 @@
         "DayTime": [
           { "day": "Tuesday", "time": "15:00 - 15:50" },
           { "day": "Thursday", "time": "14:00 - 14:50" },
-          { "day": "Thursday", "time": "14:00 - 14:50" }
+          { "day": "Thursday", "time": "15:00 - 15:50" }
         ],
         "T": 3,
         "U": 0,
