@@ -4,74 +4,74 @@ from CourseStatistics import CourseStatistics
 class Course:
 
     def __init__(self):
-        self.courseStatistics = CourseStatistics()
-        self.ID = 0 
-        self.name = ''
-        self.prerequisite = None
-        self.prerequisiteId = None
-        self.quota = 0
-        self.credit = 0
-        self.semsester = ''
+        self._courseStatistics = CourseStatistics()
+        self._ID = 0 
+        self._name = ''
+        self._prerequisite = None
+        self._prerequisiteId = None
+        self._quota = 0
+        self._credit = 0
+        self._semsester = ''
         self._scheduleList = []
 
 
     def getID(self):
-        return self.ID
+        return self._ID
 
     
     def setID(self, id):
-        self.ID = id
+        self._ID = id
 
     
     def getName(self):
-        return self.name
+        return self._name
 
     
     def setName(self, name):
-        self.name = name
+        self._name = name
 
    
     def getPrerequisite(self):
-        return self.prerequisite
+        return self._prerequisite
 
    
     def setPrerequisite(self, prerequisite):
-        self.prerequisite = prerequisite
+        self._prerequisite = prerequisite
 
     
     def getPrerequisiteId(self):
-        return self.prerequisiteId
+        return self._prerequisiteId
 
     
     def setPrerequisiteId(self, prerequisiteId):
-        self.prerequisiteId = prerequisiteId
+        self._prerequisiteId = prerequisiteId
 
     def getQuota(self):
-        return self.quota
+        return self._quota
 
    
     def setQuota(self, quota):
-        self.quota = quota
+        self._quota = quota
 
    
     def getCredit(self):
-        return self.credit
+        return self._credit
 
    
     def setCredit(self, credit):
-        self.credit = credit
+        self._credit = credit
 
    
     def getSemester(self):
-        return self.semester
+        return self._semester
 
    
     def setSemester(self, semester):
-        self.semester = semester
+        self._semester = semester
 
     
     def getCourseStatistics(self):
-        return self.courseStatistics
+        return self._courseStatistics
 
     def getScheduleList(self):
         return self._scheduleList
