@@ -5,11 +5,10 @@ from Course import Course
 import json
 import logging
 
-
 class OutputJSON:
 
     def __init__(self):
-        self.logger = logging.getLogger(__name__)
+        self._logger = logging.getLogger(__name__)
 
     def saveStudent(self,student:Student):
         student_dict = {}
@@ -20,11 +19,11 @@ class OutputJSON:
         student_dict['Advisor'] = self.getAdvisorDict(student.getAdvisor())
         student_dict['Transcript'] = self.getTranscriptDict(student.getTranscript())
         student_dict['Requested Courses'] = self.getRequstedCoursedict(student)
-        json_object = json.dumps(student_dict, indent = 4,ensure_ascii=False) 
+        json_object = json.dumps(student_dict, indent = 4,ensure_ascii=False)
         f = open(f'students/{student.getID()}.json', "w",encoding='utf-8')
         f.write(json_object)
         f.close()
-        self.logger.info(f"Student with id {student.getID()} saved successfully")
+        self._logger.info(f"Student information for {student.getID()} saved successfully in students/{student.getID()}.json")
         
     
 
@@ -62,8 +61,6 @@ class OutputJSON:
             }
             registration_problems_arr.append(registration_problem_dict)
         tr_dict['Registration Problems'] = registration_problems_arr
-        #s = json.dumps(taken_courses_arr,indent=4,ensure_ascii=False)
-        #print(s)
         return tr_dict
 
     def getRequstedCoursedict(self,student:Student):
@@ -86,12 +83,14 @@ class OutputJSON:
                 course = courses[i][j]
                 if course.getSemester() != semester: continue
                 courseStatistics = course.getCourseStatistics()
-                s = f'{course.getID()} {courses[i][j].getName()} Statistics;\n'
-                s += "	Percentage of sucessfull registration:"+str(int(round(courseStatistics.getRateOfSuccessfulRegistration(),2) * 100))+"%\n"
-                s += "    Number of registered students:"+str(courseStatistics.getRegisteredStudentCount())+"\n"
-                s += "	Number of registration failures:"+str(courseStatistics.getRegistrationFailureCount())+"\n"
-                s += "	Number of quota problems:"+str(courseStatistics.getQuotaProblemCount())+"\n"
-                s += "	Number of prerequisite problems:"+str(courseStatistics.getPrerequisiteProblemCount())+"\n"
+                s = f' -->  {course.getID().upper()} {courses[i][j].getName().upper()}\n\n'
+                s += "\t■ Number of students applied for course :"+str(courseStatistics.getRegisteredStudentCount() + courseStatistics.getRegistrationFailureCount())+"\n"
+                s += "\t■ Number of registered students:"+str(courseStatistics.getRegisteredStudentCount())+"\n"
+                s += "\t■ Number of registration failures:"+str(courseStatistics.getRegistrationFailureCount())+"\n"
+                s += "\t - Number of quota problems:"+str(courseStatistics.getQuotaProblemCount())+"\n"
+                s += "\t - Number of prerequisite problems:"+str(courseStatistics.getPrerequisiteProblemCount())+"\n"
+                s += "\t - Number of collision problems:"+str(courseStatistics.getCollisionProblemCount())+"\n"
+                s += "\t - Number of max limit course problems:"+str(courseStatistics.getMaxcourseProblemCount())+"\n\n"
                 allCourseStatistics += s
                 print(allCourseStatistics)
         
