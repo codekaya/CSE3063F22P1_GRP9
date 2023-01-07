@@ -1,31 +1,30 @@
 from CourseRegistrationSimulation import CourseRegistrationSimulation
 import logging
 
-logging.basicConfig(
+
+
+def main():
+
+ configureLogger()
+ simulation = CourseRegistrationSimulation()
+ simulation.startSimulation()
+
+
+def configureLogger():
+ logging.basicConfig(
      filename='app.log',
      level=logging.DEBUG, 
      format= '[%(asctime)s] %(lineno)d %(levelname)s - %(message)s',
-     datefmt='%H:%M:%S',filemode='w'
+     datefmt='%H:%M:%S',filemode='w',encoding='utf-8'
  )
+ console = logging.StreamHandler()
+ console.setLevel(logging.DEBUG)
+ formatter = logging.Formatter('[%(asctime)s] %(name)-12s: %(levelname)-8s %(message)s')
+ console.setFormatter(formatter)
+ logging.getLogger('').addHandler(console)
 
-console = logging.StreamHandler()
-console.setLevel(logging.DEBUG)
-formatter = logging.Formatter('[%(asctime)s] %(name)-12s: %(levelname)-8s %(message)s')
-console.setFormatter(formatter)
-logging.getLogger('').addHandler(console)
-logger = logging.getLogger(__name__)
-
-logger.info('main')
-
-
-
-
-
-
-simulation = CourseRegistrationSimulation()
-simulation.startSimulation()
-
-
+if __name__=="__main__":
+    main()
 
 
 
