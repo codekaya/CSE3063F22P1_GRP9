@@ -1,156 +1,260 @@
-ATA121 Atatürk İlkeleri ve İnkılap Tarihi I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:124
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-MBG1201 Introduction to Modern Biology Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:123
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE1200 Introduction to Computer Engineering Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:136
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE1241 Computer Programming I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:124
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-MATH1001 Calculus I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:123
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-PHYS1101 Physics I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:119
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-PHYS1103 Physics Lab I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:124
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-TRD121 Türk Dili I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:122
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE2023 Discrete Computational Structures Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:117
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE2225 Data Structures Statistics;
-	Percentage of sucessfull registration:71%
-    Number of registered students:80
-	Number of registration failures:33
-	Number of quota problems:0
-	Number of prerequisite problems:33
-ECON2004 Engineering Economy Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:118
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-EE2031 Electric Circuits Statistics;
-	Percentage of sucessfull registration:79%
-    Number of registered students:80
-	Number of registration failures:21
-	Number of quota problems:0
-	Number of prerequisite problems:21
-MATH2055 Differential Equations Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:124
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-MATH2059 Numerical Methods Statistics;
-	Percentage of sucessfull registration:84%
-    Number of registered students:102
-	Number of registration failures:20
-	Number of quota problems:0
-	Number of prerequisite problems:20
-CSE3215 Digital Logic Design Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:111
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE3033 Operating Systems Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:108
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE3055 Database Systems Statistics;
-	Percentage of sucessfull registration:57%
-    Number of registered students:62
-	Number of registration failures:44
-	Number of quota problems:0
-	Number of prerequisite problems:44
-CSE3063 Object-Oriented Software Design Statistics;
-	Percentage of sucessfull registration:82%
-    Number of registered students:91
-	Number of registration failures:20
-	Number of quota problems:0
-	Number of prerequisite problems:20
-IE3081 Modeling and Discrete Simulation Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:117
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE4074 Computer Networks Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:100
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE4219 Principles of Embedded System Design Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:100
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE4297 Engineering Project I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:100
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-ISG121 İş Sağlığı ve Güvenliği I Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:100
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-CSE4288 Introduction to Machine Learning Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:92
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-UE University Elective Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:100
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
-TExxx Technical Elective - 1 Statistics;
-	Percentage of sucessfull registration:100%
-    Number of registered students:100
-	Number of registration failures:0
-	Number of quota problems:0
-	Number of prerequisite problems:0
+ -->  ATA122 ATATÜRK İLKELERI VE İNKILAP TARIHI II
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE1242 COMPUTER PROGRAMMING II
+
+	■ Number of students applied for course :1
+	■ Number of registered students:0
+	■ Number of registration failures:1
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:1
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  MATH1002 CALCULUS II
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  MATH2256 LINEAR ALGEBRA FOR COMPUTER ENGINEERING
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  PHYS1102 PHYSICS II
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  PHYS1104 PHYSICS LAB II
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  TRD122 TÜRK DILI II
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  NTEXXX NON-TECHNICAL ELECTIVE - 1
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE2246 ANALYSIS OF ALGORITHMS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE2138 SYSTEMS PROGRAMMING
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE2260 PRINCIPLES OF PROGRAMMING LANGUAGES
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  EE2032 ELECTRONICS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  STAT2253 INTRODUCTION TO PROBABILITY AND STATISTICS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3038 COMPUTER ORGANIZATION
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3044 SOFTWARE ENGINEERING
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3048 INTRODUCTION TO SIGNALS AND SYSTEMS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3264 FORMAL LANGUAGES AND AUTOMATA THEORY
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  IE3235 OPERATIONS RESEARCH
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  COM2202 TECHNICAL COMM. AND ENTREPRENEURSHIP
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE4298 ENGINEERING PROJECT II
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  ISG122 İŞ SAĞLIĞI VE GÜVENLIĞI II
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  FTEXXX FACULTY TECHNICAL ELECTIVES
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  NTEXXX NON-TECHNICAL ELECTIVE - 2
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  TEXXX TECHNICAL ELECTIVE - 2
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  TEXXX TECHNICAL ELECTIVE - 3
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  TEXXX TECHNICAL ELECTIVE - 4
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+

@@ -14,7 +14,7 @@ class Advisor(Person):
             course.getCourseStatistics().incrRegistrationFailureCount()
             course.getCourseStatistics().incrMaxcourseProblemCount()
             description = "Student can't take more than 10 courses at one semester."
-            self._logger.warning(f'Registration failed: Student with id {student.getID()} can not take {course.getName()} because of course limit exceed.')
+            self._logger.warning(f' Registration failed [ADVISOR]: {self.status()} did not approve registration. {student.status()} can not take {course.getName()} because of course limit exceed.')
             self._logger.info(f'\t\t ■  Registration failure count updated for course {course.getName()} --> Problem count:{course.getCourseStatistics().getRegistrationFailureCount()}')
             problem = SelectionProblem(3, course, description)
             student._transcript.addSelectionProblem(problem)
@@ -28,4 +28,8 @@ class Advisor(Person):
         return self._office
 
     def status(self):
-        print(f"Advisor in university with id {self._ID} and email {self._office}")
+       return f'Advisor {self.getFirstName()} {self.getLastName()}'
+
+    
+
+ 

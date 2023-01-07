@@ -4,7 +4,7 @@ from CourseStatistics import CourseStatistics
 class Course:
 
     def __init__(self):
-        self._courseStatistics = CourseStatistics()
+        self._courseStatistics = CourseStatistics(self)
         self._ID = 0 
         self._name = ''
         self._prerequisite = None
@@ -13,8 +13,14 @@ class Course:
         self._credit = 0
         self._semsester = ''
         self._scheduleList = []
-
-
+    
+    def checkCollision(self,course):
+        for schedule in self._scheduleList:
+            for schedule2 in course.getScheduleList():
+                if(schedule.checkCollision(schedule2)):
+                    return True #Courses collides
+        return False #No collision
+    
     def getID(self):
         return self._ID
 

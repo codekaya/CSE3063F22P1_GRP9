@@ -10,7 +10,7 @@ class CourseRegistrationSimulation:
 
     def __init__(self):
         self._logger = logging.getLogger(__name__)
-
+ 
     def startSimulation(self):
         input = InputJSON()
         self._logger.info(f'Simulation starterd with the given parameters:\n\t ■ Number of students: {input.getNumberOfStudents()}\n\t ■ Probability of passing course: {input.getProbabilityOfPassingCourse()} \n\t ■ Semester: {input.getSemester()}\n')
@@ -29,6 +29,7 @@ class CourseRegistrationSimulation:
         for student in students:
                 output.saveStudent(student)
         output.saveCourseStatistics(input.getCourses(), input.getSemester())
+        self._logger.info('SIMULATION COMPLETED')
     
     def generateStudents(self, input):
         randomStudent = RandomStudent(input)
@@ -49,3 +50,4 @@ class CourseRegistrationSimulation:
             if(sem==4):sem=0
         self._logger.info('Random student creation ended.\n')
         return students 
+    

@@ -1,17 +1,21 @@
-class Person:
+
+from abc import ABC, abstractclassmethod
+
+class Person(ABC):
     def __init__(self, ID, first_name, last_name):
-        self._ID = ID
-        self._first_name = first_name
-        self._last_name = last_name
-        
+        self.ID = ID
+        self.first_name = first_name
+        self.last_name = last_name
+
+    @abstractclassmethod   
     def status(self):
-        raise NotImplementedError("The status method must be implemented by the subclass.")
+        pass
         
     def getID(self):
-        return self._ID
+        return self.ID
     
     def getFirstName(self):
-        return self._first_name
+        return self.first_name
     
     def getLastName(self):
-        return self._last_name
+        return self.last_name

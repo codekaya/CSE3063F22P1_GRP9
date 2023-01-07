@@ -19,7 +19,8 @@ class Student(Person):
                     description = "Couldn't registered it collides with " + studentSchedule[1].getName()
                     course.getCourseStatistics().incrRegistrationFailureCount()
                     course.getCourseStatistics().incrCollisionProblemCount()
-                    self._logger.warning(f' Registration failed: Student with id {self.getID()} can not take {course.getName()} because it collides with {studentSchedule[1].getName()}')
+                    self._logger.warning(f' Registration failed [SYSTEM]: {self.status()} can not take {course.getName()} because it collides with {studentSchedule[1].getName()}')
+                    self._logger.info(f'\t\t ■  {course.getName()} [{schedule.getDay()} {schedule.getStartingTime()}:00] {studentSchedule[1].getName()} [{studentSchedule[0].getDay()} {studentSchedule[0].getStartingTime()}:00]')
                     self._logger.info(f'\t\t ■  Registration failure count updated for course {course.getName()} --> Problem count:{course.getCourseStatistics().getCollisionProblemCount()}')
                     self._transcript.addSelectionProblem(SelectionProblem(4,course,description))
                     return False #There is a collision
@@ -69,6 +70,6 @@ class Student(Person):
         self._transcript = transcript
         
     def status(self):
-        print(f"Student in university with id {self.getID()} and semester {self._semester}")
+        return f"Student {self.getFirstName()} {self.getLastName()} with id {self.getID()} and semester {self._semester}"
     
 

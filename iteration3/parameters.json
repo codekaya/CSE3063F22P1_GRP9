@@ -1,7 +1,7 @@
 {
-  "semester":"Fall",
-  "numberOfStudents":400,
-  "probabilityOfPassingCourse":0.8,
+  "semester":"Spring",
+  "numberOfStudents":1,
+  "probabilityOfPassingCourse": 0.6,
   "courses":{
     "s1":[
       {

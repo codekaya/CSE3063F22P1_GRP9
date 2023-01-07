@@ -1,9 +1,9 @@
 from Student import Student
 from Advisor import Advisor
 from Transcript import Transcript
-from Course import Course
 import json
 import logging
+import sys
 
 class OutputJSON:
 
@@ -20,8 +20,16 @@ class OutputJSON:
         student_dict['Transcript'] = self.getTranscriptDict(student.getTranscript())
         student_dict['Requested Courses'] = self.getRequstedCoursedict(student)
         json_object = json.dumps(student_dict, indent = 4,ensure_ascii=False)
-        f = open(f'students/{student.getID()}.json', "w",encoding='utf-8')
-        f.write(json_object)
+        try:
+         f = open(f'students/{student.getID()}.json', "w",encoding='utf-8')
+        except:
+         self._logger.warning('Unexpected error.')
+         sys.exit()
+        try: 
+         f.write(json_object)
+        except IOError as e :
+         self._logger.warning("I/O error({0}): {1}".format(e.errno, e.strerror))
+         sys.exit()
         f.close()
         self._logger.info(f"Student information for {student.getID()} saved successfully in students/{student.getID()}.json")
         
@@ -78,24 +86,22 @@ class OutputJSON:
 
     def saveCourseStatistics(self,courses,semester):
         allCourseStatistics = ''
-        for i in range(len(courses)):
-            for j in range(len(courses[i])):
-                course = courses[i][j]
+        for sem in courses:
+            for course in sem:
                 if course.getSemester() != semester: continue
-                courseStatistics = course.getCourseStatistics()
-                s = f' -->  {course.getID().upper()} {courses[i][j].getName().upper()}\n\n'
-                s += "\t■ Number of students applied for course :"+str(courseStatistics.getRegisteredStudentCount() + courseStatistics.getRegistrationFailureCount())+"\n"
-                s += "\t■ Number of registered students:"+str(courseStatistics.getRegisteredStudentCount())+"\n"
-                s += "\t■ Number of registration failures:"+str(courseStatistics.getRegistrationFailureCount())+"\n"
-                s += "\t - Number of quota problems:"+str(courseStatistics.getQuotaProblemCount())+"\n"
-                s += "\t - Number of prerequisite problems:"+str(courseStatistics.getPrerequisiteProblemCount())+"\n"
-                s += "\t - Number of collision problems:"+str(courseStatistics.getCollisionProblemCount())+"\n"
-                s += "\t - Number of max limit course problems:"+str(courseStatistics.getMaxcourseProblemCount())+"\n\n"
-                allCourseStatistics += s
+                allCourseStatistics += str(course.getCourseStatistics())
                 print(allCourseStatistics)
         
-        f = open(f'DepartmentStatistics.txt', "w",encoding='utf-8')
-        f.write(allCourseStatistics)
+        try:
+         f = open(f'DepartmentStatistics.txt', "w",encoding='utf-8')
+        except:
+         self._logger.warning('Unexpected error.')
+         sys.exit()
+        try:
+         f.write(allCourseStatistics)
+        except IOError as e :
+         self._logger.warning("I/O error({0}): {1}".format(e.errno, e.strerror))
+         sys.exit()
         f.close()    
        
         

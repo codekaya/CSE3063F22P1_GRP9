@@ -19,7 +19,7 @@ class RandomStudent:
         advisor = self.getRandomAdvisor()
         student = Student(Id, Fname, Lname, semester + 1, advisor)
         self.createStudentTranscript(semester, student)
-        self._logger.info(f'Random student with id:{Id} in semester {semester + 1} created successfully.')
+        self._logger.info(f'{student.status()} created.')
         return student
 
     def getRandomId(self, semester, order):

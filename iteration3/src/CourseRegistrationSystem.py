@@ -27,7 +27,7 @@ class CourseRegistrationSystem:
                     course.getCourseStatistics().incrRegistrationFailureCount()
                     course.getCourseStatistics().incrPrerequisiteProblemCount()
                     description = f"Prerequisite {prerequisite.getName()} isn't passed"
-                    self._logger.warning(f' Registration failed: Student with id {student.getID()} can not take {course.getName()} because of failed {prerequisite.getName()}.')
+                    self._logger.warning(f' Registration failed [SYSTEM]: {student.status()} can not take {course.getName()} because of failed {prerequisite.getName()}.')
                     self._logger.info(f'\t\t ■  Registration failure count updated for course {course.getName()} --> Problem count:{course.getCourseStatistics().getPrerequisiteProblemCount()}')
                     problem = SelectionProblem(1, course, description)
                     transcript.addSelectionProblem(problem)
@@ -36,7 +36,7 @@ class CourseRegistrationSystem:
                 course.getCourseStatistics().incrQuotaProblemCount()
                 course.getCourseStatistics().incrRegistrationFailureCount()
                 description = "The quota is exceeded."
-                self._logger.warning(f'Registration failed: Student with id {student.getID()} can not take {course.getName()} because of quota problem.')
+                self._logger.warning(f'Registration failed [SYSTEM]: {student.status()} can not take {course.getName()} because of quota problem.')
                 self._logger.info(f'\t\t ■  Registration failure count updated for course {course.getName()} --> Problem count:{course.getCourseStatistics().getQuotaProblemCount()}')
                 problem = SelectionProblem(2, course, description)
                 transcript.addSelectionProblem(problem)

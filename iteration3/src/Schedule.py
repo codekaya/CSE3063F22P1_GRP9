@@ -14,3 +14,9 @@ class Schedule:
     
     def getStartingTime(self):
         return self._startingTime
+    
+    def setDay(self,day):
+        self._day = day
+
+    def setStartingTime(self,startingTime):
+        self._startingTime = startingTime
