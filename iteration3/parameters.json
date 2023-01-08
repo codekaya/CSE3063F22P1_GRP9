@@ -1,5 +1,5 @@
 {
-  "semester":"Spring",
+  "semester":"Fall",
   "numberOfStudents":1,
   "probabilityOfPassingCourse": 0.6,
   "courses":{

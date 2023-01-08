@@ -1,38 +1,32 @@
-[23:11:55] 16 INFO - Simulation starterd with the given parameters:
+[17:10:18] 16 INFO - Simulation starterd with the given parameters:
 	 ■ Number of students: 1
 	 ■ Probability of passing course: 0.6 
-	 ■ Semester: Spring
+	 ■ Semester: Fall
 
-[23:11:55] 45 INFO - Random student creation started.
-[23:11:55] 22 INFO - Student Therese Guy with id 150121000 and semester 2 created.
-[23:11:55] 51 INFO - Random student creation ended.
+[17:10:18] 45 INFO - Random student creation started.
+[17:10:18] 22 INFO - Student Judith Garcia with id 150122000 and semester 1 created.
+[17:10:18] 51 INFO - Random student creation ended.
 
-[23:11:55] 48 INFO - ◉ Random sutdent with id:150121000,semester:3 and requested courses list:
-[23:11:55] 50 INFO - 	Computer Programming I → Quota:150
-[23:11:55] 50 INFO - 	Physics I → Quota:156
-[23:11:55] 50 INFO - 	Physics Lab I → Quota:157
-[23:11:55] 50 INFO - 	Türk Dili I → Quota:158
-[23:11:55] 50 INFO - 	Atatürk İlkeleri ve İnkılap Tarihi II → Quota:151
-[23:11:55] 50 INFO - 	Computer Programming II → Quota:152
-[23:11:55] 52 INFO - 	   ■  Prerequiste(s):Computer Programming I
-[23:11:55] 50 INFO - 	Calculus II → Quota:153
-[23:11:55] 50 INFO - 	Linear Algebra for Computer Engineering → Quota:154
-[23:11:55] 50 INFO - 	Physics II → Quota:155
-[23:11:55] 50 INFO - 	Physics Lab II → Quota:156
-[23:11:55] 50 INFO - 	Türk Dili II → Quota:157
-[23:11:55] 50 INFO - 	Non-Technical Elective - 1 → Quota:158
-[23:11:55] 12 INFO - 
-                      ○ Registration procees start for the student 150121000
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Atatürk İlkeleri ve İnkılap Tarihi II is 151 to 150
-[23:11:55] 30 WARNING -  Registration failed [SYSTEM]: Student Therese Guy with id 150121000 and semester 2 can not take Computer Programming II because of failed Computer Programming I.
-[23:11:55] 31 INFO - 		 ■  Registration failure count updated for course Computer Programming II --> Problem count:1
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Calculus II is 153 to 152
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Linear Algebra for Computer Engineering is 154 to 153
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Physics II is 155 to 154
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Physics Lab II is 156 to 155
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Türk Dili II is 157 to 156
-[23:11:55] 51 INFO - 	 Successfully registered. Quota updated for Non-Technical Elective - 1 is 158 to 157
-[23:11:55] 52 INFO -  ○ Registration procees end for the student 150121000
+[17:10:18] 48 INFO - ◉ Random sutdent with id:150122000,semester:2 and requested courses list:
+[17:10:18] 50 INFO - 	Atatürk İlkeleri ve İnkılap Tarihi I → Quota:150
+[17:10:18] 50 INFO - 	Introduction to Modern Biology → Quota:150
+[17:10:18] 50 INFO - 	Introduction to Computer Engineering → Quota:151
+[17:10:18] 50 INFO - 	Computer Programming I → Quota:150
+[17:10:18] 50 INFO - 	Calculus I → Quota:150
+[17:10:18] 50 INFO - 	Physics I → Quota:156
+[17:10:18] 50 INFO - 	Physics Lab I → Quota:157
+[17:10:18] 50 INFO - 	Türk Dili I → Quota:158
+[17:10:18] 12 INFO - 
+                      ○ Registration procees start for the student 150122000
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Atatürk İlkeleri ve İnkılap Tarihi I is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Introduction to Modern Biology is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Introduction to Computer Engineering is 151 to 150
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Computer Programming I is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Calculus I is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Physics I is 156 to 155
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Physics Lab I is 157 to 156
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Türk Dili I is 158 to 157
+[17:10:18] 52 INFO -  ○ Registration procees end for the student 150122000
 
-[23:11:55] 34 INFO - Student information for 150121000 saved successfully in students/150121000.json
-[23:11:55] 32 INFO - SIMULATION COMPLETED
+[17:10:18] 34 INFO - Student information for 150122000 saved successfully in students/150122000.json
+[17:10:19] 32 INFO - SIMULATION COMPLETED

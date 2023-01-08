@@ -1,8 +1,9 @@
 import unittest
-from CSE3063F22P1_GRP9 import Advisor, Student
+from Advisor import Advisor
+from Student import Student
 
 class StudentTest(unittest.TestCase):
-    def ConstructionTest(self):
+    def testConstruction(self):
         sampleAdvisor  = Advisor("109", "Paul", "Walker", "deneme@gmail.com", "M2-9")
         sampleStudent  = Student("150120000", "Jonny", "Deep", 4, sampleAdvisor )
 

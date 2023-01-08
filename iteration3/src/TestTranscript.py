@@ -1,8 +1,12 @@
 import unittest
-from CSE3063F22P1_GRP9 import Advisor, Course, Student, TakenCourse, Transcript
+from Advisor import Advisor
+from Course import Course
+from TakenCourse import TakenCourse
+from Student import Student
+from Transcript import Transcript
 
 class TranscriptTest(unittest.TestCase):
-    def calculateGpaTest(self):
+    def testcalculateGpa(self):
         s1 = Course()
         s1.setName("ATA121")
         s1.setCredit(10)
@@ -19,10 +23,10 @@ class TranscriptTest(unittest.TestCase):
         expectedGpa = 45 / 15
 
         testT = Transcript(st1)
-        testT.add_taken_course(t1)
-        testT.add_taken_course(t2)
+        testT.addTakenCourse(t1)
+        testT.addTakenCourse(t2)
 
-        self.assertEqual(expectedGpa, testT.get_gpa())
+        self.assertEqual(expectedGpa, testT.getGpa(),'Failed.')
 
 if __name__ == '__main__':
     unittest.main()

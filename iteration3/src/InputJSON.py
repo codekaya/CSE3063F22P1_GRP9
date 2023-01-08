@@ -99,7 +99,7 @@ class InputJSON:
          if type(student_number) != type(1) or student_number <= 0 :
             raise ValueError('Not a correct type or student number must be greather than 0')
          if student_number > 1000:
-            raise Exception('Simulation limit for number of students is exceed.( Maximum 1000)')
+            raise Exception(f'{student_number} students too high for simulation. Simulation limitited for up to 1000 students.')
          return self._input['numberOfStudents']
 
         except ValueError as msg:
@@ -107,7 +107,7 @@ class InputJSON:
             sys.exit()
         except Exception as msg:
           self._logger.warning(msg)
-          self._logger.warning('Simulation will continue up until 1000 student.')
+          self._logger.warning(f'Simulation will continue up until 1000 student.')
           self.setNumberOfStudents(1000)
           return self.getNumberOfStudents()
 

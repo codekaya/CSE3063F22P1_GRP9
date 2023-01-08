@@ -1,4 +1,4 @@
- -->  ATA122 ATATÜRK İLKELERI VE İNKILAP TARIHI II
+ -->  ATA121 ATATÜRK İLKELERI VE İNKILAP TARIHI I
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -8,17 +8,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE1242 COMPUTER PROGRAMMING II
-
-	■ Number of students applied for course :1
-	■ Number of registered students:0
-	■ Number of registration failures:1
-	 - Number of quota problems:0
-	 - Number of prerequisite problems:1
-	 - Number of collision problems:0
-	 - Number of max limit course problems:0
-
- -->  MATH1002 CALCULUS II
+ -->  MBG1201 INTRODUCTION TO MODERN BIOLOGY
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -28,7 +18,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  MATH2256 LINEAR ALGEBRA FOR COMPUTER ENGINEERING
+ -->  CSE1200 INTRODUCTION TO COMPUTER ENGINEERING
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -38,7 +28,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  PHYS1102 PHYSICS II
+ -->  CSE1241 COMPUTER PROGRAMMING I
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -48,7 +38,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  PHYS1104 PHYSICS LAB II
+ -->  MATH1001 CALCULUS I
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -58,7 +48,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  TRD122 TÜRK DILI II
+ -->  PHYS1101 PHYSICS I
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -68,7 +58,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  NTEXXX NON-TECHNICAL ELECTIVE - 1
+ -->  PHYS1103 PHYSICS LAB I
 
 	■ Number of students applied for course :1
 	■ Number of registered students:1
@@ -78,7 +68,17 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE2246 ANALYSIS OF ALGORITHMS
+ -->  TRD121 TÜRK DILI I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE2023 DISCRETE COMPUTATIONAL STRUCTURES
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -88,7 +88,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE2138 SYSTEMS PROGRAMMING
+ -->  CSE2225 DATA STRUCTURES
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -98,7 +98,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE2260 PRINCIPLES OF PROGRAMMING LANGUAGES
+ -->  ECON2004 ENGINEERING ECONOMY
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -108,7 +108,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  EE2032 ELECTRONICS
+ -->  EE2031 ELECTRIC CIRCUITS
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -118,7 +118,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  STAT2253 INTRODUCTION TO PROBABILITY AND STATISTICS
+ -->  MATH2055 DIFFERENTIAL EQUATIONS
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -128,7 +128,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE3038 COMPUTER ORGANIZATION
+ -->  MATH2059 NUMERICAL METHODS
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -138,7 +138,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE3044 SOFTWARE ENGINEERING
+ -->  CSE3215 DIGITAL LOGIC DESIGN
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -148,7 +148,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE3048 INTRODUCTION TO SIGNALS AND SYSTEMS
+ -->  CSE3033 OPERATING SYSTEMS
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -158,7 +158,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE3264 FORMAL LANGUAGES AND AUTOMATA THEORY
+ -->  CSE3055 DATABASE SYSTEMS
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -168,7 +168,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  IE3235 OPERATIONS RESEARCH
+ -->  CSE3063 OBJECT-ORIENTED SOFTWARE DESIGN
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -178,7 +178,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  COM2202 TECHNICAL COMM. AND ENTREPRENEURSHIP
+ -->  IE3081 MODELING AND DISCRETE SIMULATION
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -188,7 +188,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  CSE4298 ENGINEERING PROJECT II
+ -->  CSE4074 COMPUTER NETWORKS
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -198,7 +198,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  ISG122 İŞ SAĞLIĞI VE GÜVENLIĞI II
+ -->  CSE4219 PRINCIPLES OF EMBEDDED SYSTEM DESIGN
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -208,7 +208,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  FTEXXX FACULTY TECHNICAL ELECTIVES
+ -->  CSE4297 ENGINEERING PROJECT I
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -218,7 +218,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  NTEXXX NON-TECHNICAL ELECTIVE - 2
+ -->  ISG121 İŞ SAĞLIĞI VE GÜVENLIĞI I
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -228,7 +228,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  TEXXX TECHNICAL ELECTIVE - 2
+ -->  CSE4288 INTRODUCTION TO MACHINE LEARNING
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -238,7 +238,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  TEXXX TECHNICAL ELECTIVE - 3
+ -->  UE UNIVERSITY ELECTIVE
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0
@@ -248,7 +248,7 @@
 	 - Number of collision problems:0
 	 - Number of max limit course problems:0
 
- -->  TEXXX TECHNICAL ELECTIVE - 4
+ -->  TEXXX TECHNICAL ELECTIVE - 1
 
 	■ Number of students applied for course :0
 	■ Number of registered students:0

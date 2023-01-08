@@ -1,8 +1,9 @@
 import unittest
-from CSE3063F22P1_GRP9 import InputJSON, RandomStudent, Student
+from InputJSON import InputJSON
+from RandomStudent import RandomStudent
 
 class RandomStudentTest(unittest.TestCase):
-    def CreateRandomStudentTest(self):
+    def testCreateRandomStudent(self):
         input  = InputJSON()
         random_student = RandomStudent(input)
         student = random_student.createRandomStudent(4, 6)
