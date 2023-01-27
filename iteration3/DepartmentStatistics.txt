@@ -1,0 +1,260 @@
+ -->  ATA121 ATATÜRK İLKELERI VE İNKILAP TARIHI I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  MBG1201 INTRODUCTION TO MODERN BIOLOGY
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE1200 INTRODUCTION TO COMPUTER ENGINEERING
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE1241 COMPUTER PROGRAMMING I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  MATH1001 CALCULUS I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  PHYS1101 PHYSICS I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  PHYS1103 PHYSICS LAB I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  TRD121 TÜRK DILI I
+
+	■ Number of students applied for course :1
+	■ Number of registered students:1
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE2023 DISCRETE COMPUTATIONAL STRUCTURES
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE2225 DATA STRUCTURES
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  ECON2004 ENGINEERING ECONOMY
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  EE2031 ELECTRIC CIRCUITS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  MATH2055 DIFFERENTIAL EQUATIONS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  MATH2059 NUMERICAL METHODS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3215 DIGITAL LOGIC DESIGN
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3033 OPERATING SYSTEMS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3055 DATABASE SYSTEMS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE3063 OBJECT-ORIENTED SOFTWARE DESIGN
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  IE3081 MODELING AND DISCRETE SIMULATION
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE4074 COMPUTER NETWORKS
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE4219 PRINCIPLES OF EMBEDDED SYSTEM DESIGN
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE4297 ENGINEERING PROJECT I
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  ISG121 İŞ SAĞLIĞI VE GÜVENLIĞI I
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  CSE4288 INTRODUCTION TO MACHINE LEARNING
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  UE UNIVERSITY ELECTIVE
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+
+ -->  TEXXX TECHNICAL ELECTIVE - 1
+
+	■ Number of students applied for course :0
+	■ Number of registered students:0
+	■ Number of registration failures:0
+	 - Number of quota problems:0
+	 - Number of prerequisite problems:0
+	 - Number of collision problems:0
+	 - Number of max limit course problems:0
+

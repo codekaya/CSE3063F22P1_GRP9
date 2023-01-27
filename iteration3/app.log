@@ -1,0 +1,32 @@
+[17:10:18] 16 INFO - Simulation starterd with the given parameters:
+	 ■ Number of students: 1
+	 ■ Probability of passing course: 0.6 
+	 ■ Semester: Fall
+
+[17:10:18] 45 INFO - Random student creation started.
+[17:10:18] 22 INFO - Student Judith Garcia with id 150122000 and semester 1 created.
+[17:10:18] 51 INFO - Random student creation ended.
+
+[17:10:18] 48 INFO - ◉ Random sutdent with id:150122000,semester:2 and requested courses list:
+[17:10:18] 50 INFO - 	Atatürk İlkeleri ve İnkılap Tarihi I → Quota:150
+[17:10:18] 50 INFO - 	Introduction to Modern Biology → Quota:150
+[17:10:18] 50 INFO - 	Introduction to Computer Engineering → Quota:151
+[17:10:18] 50 INFO - 	Computer Programming I → Quota:150
+[17:10:18] 50 INFO - 	Calculus I → Quota:150
+[17:10:18] 50 INFO - 	Physics I → Quota:156
+[17:10:18] 50 INFO - 	Physics Lab I → Quota:157
+[17:10:18] 50 INFO - 	Türk Dili I → Quota:158
+[17:10:18] 12 INFO - 
+                      ○ Registration procees start for the student 150122000
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Atatürk İlkeleri ve İnkılap Tarihi I is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Introduction to Modern Biology is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Introduction to Computer Engineering is 151 to 150
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Computer Programming I is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Calculus I is 150 to 149
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Physics I is 156 to 155
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Physics Lab I is 157 to 156
+[17:10:18] 51 INFO - 	 Successfully registered. Quota updated for Türk Dili I is 158 to 157
+[17:10:18] 52 INFO -  ○ Registration procees end for the student 150122000
+
+[17:10:18] 34 INFO - Student information for 150122000 saved successfully in students/150122000.json
+[17:10:19] 32 INFO - SIMULATION COMPLETED
